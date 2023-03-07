@@ -1,0 +1,7 @@
+= ARC-Quotes
+
+Architect app to handle quotes.
+
+== AWS
+* https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html[Lambda runtimes
+]
