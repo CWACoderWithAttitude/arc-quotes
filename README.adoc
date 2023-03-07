@@ -3,5 +3,8 @@
 Architect app to handle quotes.
 
 == AWS
-* https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html[Lambda runtimes
-]
+* https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html[Lambda runtimes]
+
+== Dev
+Project ships with devcontainer configuration. Using Visual Studio Code is the preferred IDE.   
+I try to follow the TDD approach. Continuously executing tests while doing developement helps prevent breaking code. Simply run `npm run watch` to run all tests for every change. Since everything is done in memory test are blazingly fast.
