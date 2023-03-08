@@ -1,28 +1,39 @@
 {
     "quotes": [
         {
-            "quoteID": "1", 
+            "quoteID": "1",
             "author": "Picard, Jean-Luc",
             "text": "Make it so!"
         },
         {
-            "quoteID": "2", 
+            "quoteID": "2",
             "author": "Walbaum, Frank",
             "text": "Planung ersetzt Zufall durch Irrtum"
         },
         {
-            "quoteID": "3", 
+            "quoteID": "3",
             "author": "Staubsaugerina",
             "text": "Pech fürs Schwein"
         },
         {
-            "quoteID": "4", 
+            "quoteID": "4",
             "author": "Reiners, Till",
             "text": "Erwachsene sind wie Kinder mit Geld. Oder Schulden - Ja nachdem wie es läuft"
-        }, {
-            "quoteID": "5", 
+        },
+        {
+            "quoteID": "5",
             "author": "@WisdomMadeEasy",
             "text": "Don't just pratice until you can do it right. Practice until you can't do it wrong "
+        },
+        {
+            "quoteID": "6",
+            "author": "Söder, Markus",
+            "text": "It's nice to be a preiss - but it's higher to be a bayer."
+        },
+        {
+            "quoteID": "7",
+            "author": "unknown",
+            "text": "Dont listen with the intent to reply. But with the intent to understand"
         }
     ]
 }
