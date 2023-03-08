@@ -31,9 +31,20 @@ test("check valid result", async (t) => {
   });
 
   t.ok(result.body, "", "wew should have found something?!");
-  console.log(">>>> result: " + JSON.stringify(result.body));
+  //console.log(">>>> result: " + JSON.stringify(result.body));
   t.equal(result.body.quoteID, id, "ID mismatch?!");
 });
+/* test("query with no id", async (t) => {
+  t.plan(2);
+  const id = "";
+  let result = await tiny.get({
+    url: "http://localhost:3333/api/quotes",
+  });
+
+  t.ok(result.body, "", "wew should have found something?!");
+  console.log(">>>> result: " + JSON.stringify(result.body));
+  t.equal(result.body.quoteID, id, "ID mismatch?!");
+}); */
 test("check query for non existing id", async (t) => {
   t.plan(1);
   const id = "42";

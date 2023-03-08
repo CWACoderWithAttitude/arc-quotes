@@ -12,7 +12,7 @@ async function handler (req) {
   console.log('=== session: ' + JSON.stringify(quoteID))
   
 
-  console.log('=== quotes-byID: req: ' + JSON.stringify(req))
+  //console.log('=== quotes-byID: req: ' + JSON.stringify(req))
   const quote = await quotes.get({ quoteID: quoteID })
   console.log('=== quote: ' + JSON.stringify(quote))
   return {
