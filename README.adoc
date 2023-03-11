@@ -7,7 +7,9 @@ Architect app to handle quotes.
 
 == Dev
 Project ships with devcontainer configuration. Using Visual Studio Code is the preferred IDE.   
-I try to follow the TDD approach. Continuously executing tests while doing developement helps prevent breaking code. Simply run `npm run watch` to run all tests for every change. Since everything is done in memory test are blazingly fast.
+I try to follow the TDD approach - test first - using https://github.com/dwyl/learn-tape[Tape]. Continuously executing tests while doing developement helps prevent breaking code. Simply run `npm run watch` to run all tests for every change. Since everything is done in memory test are blazingly fast.
+
+Code coverage https://github.com/dwyl/learn-tape#code-coverage[is measured] so we know we didn't miss to test something.
 
 === REST Interface w Thnderclient
 
