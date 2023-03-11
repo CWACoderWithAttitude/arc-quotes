@@ -8,9 +8,11 @@
     "watch": "npx tape-watch tests/*test.js  -p tap-spec",
     "watchQuoteById": "npx tape-watch tests/getQuotes-byID-test.js -p tap-spec",
     "watchPostTests": "npx tape-watch tests/post*-test.js",
+    "coverage":"istanbul cover tape tests/*-test.js",
     "start": "npx sandbox"
   },
   "devDependencies": {
+    "istanbul": "^0.4.5",
     "tap-spec": "^5.0.0",
     "tape": "^5.6.3",
     "tape-watch": "^2.3.0",
