@@ -17,5 +17,5 @@ quotes
   quoteID *String
 
 # https://arc.codes/docs/en/guides/frontend/static-assets#static-assets
-@static
-spa true
+#@static
+#spa true

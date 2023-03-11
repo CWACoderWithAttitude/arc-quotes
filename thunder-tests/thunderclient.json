@@ -1,0 +1,40 @@
+[
+  {
+    "_id": "f861e556-58c1-484d-a958-7970c6d49270",
+    "colId": "f4d9d8cf-a350-4283-a341-486c2dff322d",
+    "containerId": "",
+    "name": "create quote",
+    "url": "http://127.0.0.1:3333/api/quotes",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2023-03-11T13:32:52.059Z",
+    "modified": "2023-03-11T13:34:07.082Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"quoteID\":\"4711\",\n  \"author\":\"volker\",\n  \"tesxt\": \"blas bfasel blub\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "8a9be2d9-b49c-46a8-b2cd-b887a714603c",
+    "colId": "f4d9d8cf-a350-4283-a341-486c2dff322d",
+    "containerId": "",
+    "name": "get quotes",
+    "url": "http://127.0.0.1:3333/api/quotes",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2023-03-11T14:36:01.463Z",
+    "modified": "2023-03-11T14:36:11.305Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"quoteID\":\"4711\",\n  \"author\":\"volker\",\n  \"tesxt\": \"blas bfasel blub\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]

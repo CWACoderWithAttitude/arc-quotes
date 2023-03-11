@@ -16,21 +16,21 @@
         <!-- here v-on:submit lets us connect the submit event of the form -->
         <!--    our ="submitForm" method that is called here is in vue.js -->
         <!--    note that .prevent after :submit prevents the form from submiting via the action attribute -->
-        <form id="contact_form"  v-on:submit.prevent="submitForm" action="">
+        <form id="contact_form"  v-on:submit.prevent="submitForm" action="/api/quotes">
             <div class="form-group">
-                <label for="name">Name:</label>
+                <label for="author">Author:</label>
                 <!-- v-model link to the model (i.e. pieces of the data section of vue.js) -->
                 <!-- v-on lets us run methods from vue.js : this one is v-on:blur for the blur event -->
                 <!--    blur just means that the field no longer has 'focus' -->
-                <input v-model="name" v-on:blur="isValidName" class="form-control" name="name" type="text" />
+                <input v-model="author" v-on:blur="isValidName" class="form-control" name="author" type="text" />
             </div>
-            <div class="form-group">
+            <!--div class="form-group">
                 <label for="email">Email</label>
                 <input v-model="email" v-on:blur="isValidEmail" class="form-control" name="email" type="email" />
-            </div>
+            </div-->
             <div class="form-group">
-                <label for="message">Message <small>(<span>{{ message.length }}</span> / <span>{{ maxLength }}</span>)</label>
-                <textarea v-model="message" v-on:blur="isValidMessage" class="form-control" name="message"></textarea>
+                <label for="quote">Quote <small>(<span>{{ message.length }}</span> / <span>{{ maxLength }}</span>)</label>
+                <textarea v-model="message" v-on:blur="isValidMessage" class="form-control" name="quote"></textarea>
             </div>
             <!-- v-show (compare to v-if) shows the paragraph tag if there is an error -->
             <!-- v-html populates the content of the paragraph tag with the error message value -->

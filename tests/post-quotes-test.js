@@ -26,13 +26,14 @@ test("create quote by post request", async (t) => {
     t.plan(1);
     const id = new Date(Date.now()).toISOString()
     const postData = {"quoteID":id,"text": "itzelbritzel bla fasel blub", "author":"JavaVolker"}
-    //let result = 'Äppel-Woi'
     const headers= {
-      'Content-Type': 'application/json'
+      'Content-Type': 'application/json',
+      'volker': "benders"
     }
-    const result = await tiny.post({ url: 'http://localhost:3333/api/quotes', headers, postData})
+    const result = await tiny.post({ url: 'http://localhost:3333/api/quotes', headers: headers, data: postData})
     console.log('test quotes port: result: ' + result != undefined ? JSON.stringify(result) : 'n/a')
     t.ok(result, 'got 200 response')
+    //t.equal(result.body, 'JavaVolker')
   });
   
 test("teardown", async (t) => {

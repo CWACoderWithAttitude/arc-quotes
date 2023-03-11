@@ -8,3 +8,9 @@ Architect app to handle quotes.
 == Dev
 Project ships with devcontainer configuration. Using Visual Studio Code is the preferred IDE.   
 I try to follow the TDD approach. Continuously executing tests while doing developement helps prevent breaking code. Simply run `npm run watch` to run all tests for every change. Since everything is done in memory test are blazingly fast.
+
+=== REST Interface w Thnderclient
+
+A bunch of example requests can be found https://reqbin.com/[here]   
+
+more info on https://developers.refinitiv.com/en/article-catalog/article/how-to-test-http-rest-api-easily-with-visual-studio-code---thund[thunderclient here]

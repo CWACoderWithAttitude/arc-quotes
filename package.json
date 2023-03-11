@@ -5,8 +5,9 @@
   "type": "commonjs",
   "scripts": {
     "test": "tape tests/*-test.js | tap-spec",
-    "watch":"npx tape-watch tests/*test.js  -p tap-spec",
-    "watchQuoteById":"npx tape-watch tests/getQuotes-byID-test.js -p tap-spec",
+    "watch": "npx tape-watch tests/*test.js  -p tap-spec",
+    "watchQuoteById": "npx tape-watch tests/getQuotes-byID-test.js -p tap-spec",
+    "watchPostTests": "npx tape-watch tests/post*-test.js",
     "start": "npx sandbox"
   },
   "devDependencies": {

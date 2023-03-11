@@ -2,21 +2,15 @@
 new Vue({
     el: '#contact_form', // id of the 'app'
     data: {
-        name: '',   // data for the name on the form
-        email:'',   // data for the email on the form
+        author: '',   // data for the name on the form
         message:'', // data for the message on the form
         maxLength: 140, // maximum length of the form message
         errorMessage: ''// message to show the user if there is an error
     },
     methods: { // all the actions our app can do
         isValidName: function () { // TODO what if name is just spaces?
-            var valid = this.name.length > 0;
-            console.log('checking for a valid name: ' + valid);
-            return valid;
-        },
-        isValidEmail: function () { // TODO is a@b a valid email?
-            var valid = this.email.indexOf('@') > 0;
-            console.log('checking for a valid email: ' + valid);
+            var valid = this.author.length > 0;
+            console.log('checking for a valid author name ('+this.author+'): ' + valid);
             return valid;
         },
         isValidMessage: function () { // what if message is just spaces?
@@ -43,11 +37,12 @@ new Vue({
             }
             console.log('submitting message...');
             // TODO submit to form processor
-            this.$http({url: '/someUrl', method: 'POST', data: {
-                name: this.name,
-                email: this.email,
+            const postData = {
+                author: this.author,
                 message: this.message
-            }}).then(function () {
+            }
+            console.log(JSON.stringify(postData, ' ', 2))
+            this.$http({url: '/api/quotes', method: 'POST', data: postData}).then(function () {
                 // TODO how could you use errorMessage to create a message
                 //  for success?
                 alert('Your form was submitted!');
