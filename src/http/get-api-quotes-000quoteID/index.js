@@ -7,14 +7,9 @@ async function handler (req) {
   // https://arc.codes/docs/en/reference/runtime-helpers/node.js#arc.tables()
   const tables = await arc.tables()
   const quotes = tables.quotes
-  const body = req.body 
-  let quoteID = req.params.quoteID //await arc.http.helpers(req)
-  console.log('=== session: ' + JSON.stringify(quoteID))
-  
+  let quoteID = req.params.quoteID 
 
-  //console.log('=== quotes-byID: req: ' + JSON.stringify(req))
   const quote = await quotes.get({ quoteID: quoteID })
-  console.log('=== quote: ' + JSON.stringify(quote))
   return {
     statusCode: 200,
     headers: {

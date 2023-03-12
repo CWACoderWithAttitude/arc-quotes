@@ -20,8 +20,6 @@ test("endpoint exists", async (t) => {
   let result = await tiny.get({ url: "http://localhost:3333/api/quotes/1" });
   t.ok(result, "got result response");
   t.notEqual(result.body, {}, "wrong bodfy?!");
-  //t.equal(result.body.length, 1, 'wrong bodfy size?!')
-  //console.log(">>>> result: " + JSON.stringify(result))
 });
 test("check valid result", async (t) => {
   t.plan(2);
@@ -31,20 +29,9 @@ test("check valid result", async (t) => {
   });
 
   t.ok(result.body, "", "wew should have found something?!");
-  //console.log(">>>> result: " + JSON.stringify(result.body));
   t.equal(result.body.quoteID, id, "ID mismatch - returned wrong quote by id?!");
 });
-/* test("query with no id", async (t) => {
-  t.plan(2);
-  const id = "";
-  let result = await tiny.get({
-    url: "http://localhost:3333/api/quotes",
-  });
 
-  t.ok(result.body, "", "wew should have found something?!");
-  console.log(">>>> result: " + JSON.stringify(result.body));
-  t.equal(result.body.quoteID, id, "ID mismatch?!");
-}); */
 test("check query for non existing id", async (t) => {
   t.plan(1);
   const nonExistingId = "99999";
@@ -68,7 +55,6 @@ test('get by existing id', async (t) => {
 test("contenttype", async (t) => {
   t.plan(3);
   let result = await tiny.get({ url: "http://localhost:3333/api/quotes" });
-  //console.log(">>>> result: " + JSON.stringify(result))
   t.ok(result.headers, "no headers at all?!");
   t.ok(result.headers["content-type"], "no contewnrt tyoe header?!");
   t.equal(

@@ -1,5 +1,4 @@
 import arc from '@architect/functions'
-//const arc = require('@architect/functions');
 
 // learn more about HTTP functions here: https://arc.codes/http
 export async function handler (req) {
