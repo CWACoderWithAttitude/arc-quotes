@@ -8,12 +8,12 @@
     "method": "POST",
     "sortNum": 10000,
     "created": "2023-03-11T13:32:52.059Z",
-    "modified": "2023-03-11T13:34:07.082Z",
+    "modified": "2023-03-11T16:24:10.719Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"quoteID\":\"4711\",\n  \"author\":\"volker\",\n  \"tesxt\": \"blas bfasel blub\"\n}",
+      "raw": "{\n  \"quoteID\":\"4712\",\n  \"author\":\"volker\",\n  \"tesxt\": \"blas bfasel blub\"\n}",
       "form": []
     },
     "tests": []
