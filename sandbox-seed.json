@@ -49,9 +49,34 @@
             "text": "Don't confuse a high salary with a great career."
         },
         {
-            "quoteID": "10",
+            "quoteID": "11",
             "author": "Claus von Wagner, Die Anstalt",
             "text": "Wer Bild-Zeitung liest um sich zu informieren, der trinkt auch Schnaps wenn er Durst hat."
+        },
+        {
+            "quoteID": "12",
+            "author": "Nat Friedman, GitHub CEO",
+            "text": "Pessimists sound smart - optimists make money."
+        },
+        {
+            "quoteID": "13",
+            "author": "Robet Mc Call",
+            "text": "Progress - not perfection"
+        },
+        {
+            "quoteID": "14",
+            "author": "Abraham Lincoln",
+            "text": "You can not trust quotes on the internet"
+        },
+        {
+            "quoteID": "15",
+            "author": "Scott Hanselmann",
+            "text": "The cloud doesn't care about language choice."
+        },
+        {
+            "quoteID": "16",
+            "author": "Unknown",
+            "text": "Truth is like poetry - and most people hate poetry."
         }
     ]
 }
