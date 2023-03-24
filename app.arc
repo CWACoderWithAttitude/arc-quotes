@@ -17,5 +17,6 @@ quotes
   quoteID *String
 
 # https://arc.codes/docs/en/guides/frontend/static-assets#static-assets
-#@static
+@static
+folder svelte/moz-todo-svelte/public
 #spa true

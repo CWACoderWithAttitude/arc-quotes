@@ -9,7 +9,7 @@
     "watchQuoteById": "npx tape-watch tests/getQuotes-byID-test.js -p tap-spec",
     "watchPostTests": "npx tape-watch tests/post*-test.js",
     "watchGetByIdTests": "npx tape-watch tests/*byID-test.js",
-    "coverage":"istanbul cover tape tests/*-test.js",
+    "coverage": "istanbul cover tape tests/*-test.js",
     "start": "npx sandbox"
   },
   "devDependencies": {

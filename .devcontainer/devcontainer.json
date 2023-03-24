@@ -8,21 +8,29 @@
 	// The name of the following service has to match one of the services in docker-compose.yml
 	"service": "devcontainer",
 	"workspaceFolder": "/src",
-	"extensions": [
-		"esbenp.prettier-vscode",
-		"eamodio.gitlens",
-		"ms-vscode.vscode-typescript-tslint-plugin",
-		"ms-vsliveshare.vsliveshare",
-		"dbaeumer.vscode-eslint",
-        "wesbos.theme-cobalt2",
-        "mhutchie.git-graph",
-		"rangav.vscode-thunder-client",
-		"humao.rest-client",
-		"architect.architect",
-		"asciidoctor.asciidoctor-vscode"
-	],
+	"customizations": {"vscode": {
+		"extensions": [
+			"esbenp.prettier-vscode",
+			"eamodio.gitlens",
+			"ms-vscode.vscode-typescript-tslint-plugin",
+			"ms-vsliveshare.vsliveshare",
+			"dbaeumer.vscode-eslint",
+			"wesbos.theme-cobalt2",
+			"mhutchie.git-graph",
+			"rangav.vscode-thunder-client",
+			"humao.rest-client",
+			"architect.architect",
+			"asciidoctor.asciidoctor-vscode",
+			"svelte.svelte-vscode",
+			"ardenivanov.svelte-intellisense"
+		]
+	}},
+	
 	"shutdownAction": "stopCompose",
 	"remoteUser": "node",
+	// update npm ==> sveltekit
+	// install deps for arc.codes app
+	"postCreateCommand": "npm install npm@latest && npm install"
 }
 //"mounts": [
 //    "source=${localEnv:HOME}${localEnv:USERPROFILE},target=/host-home-folder,type=bind,consistency=cached",

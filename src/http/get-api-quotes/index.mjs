@@ -2,9 +2,10 @@ import arc from '@architect/functions'
 
 // learn more about HTTP functions here: https://arc.codes/http
 export async function handler (req) {
+  //console.log("get-api-quotes: 1...")
   let tables = await arc.tables()
   const data = await tables.quotes.scan({})
-  
+  console.log(">>> get-api-quotes: 2..." + data!=undefined ? data.Items:'n/a')
   return {
     statusCode: 200,
     headers: {
