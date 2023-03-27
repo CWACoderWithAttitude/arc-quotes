@@ -33,7 +33,7 @@ test("body", async (t) => {
   let result = await tiny.get({ url: 'http://localhost:3333/api/quotes' })
   t.ok(result.body, 'no body in response?!')
   t.notEqual(result.body, "itzelbritzel")
-  t.equal(result.body.length, 16, 'wrong number of items in test data')
+  t.equal(result.body.length, 18, 'wrong number of items in test data')
 });
 
 test("teardown", async (t) => {
