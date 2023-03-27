@@ -24,27 +24,15 @@
 
 <main>
   <h1>Hello {name} from Outer Space!</h1>
-  <pre>
-	
-abc
-{quotes}
-zzz
-	{#await quotes}
-      aaa
-    {/await}
-
+  <div>
 	{#if quotes}
-      Daten
 		{#each quotes as x}
-        <div>
-				<div>{x.author}</div>
-				<div>{x.text}</div>
-			</div>
+			<li>{x.author}: {x.text}</li>
       {/each}
     {:else}
       Bitte warte, ich lese Daten...
     {/if}
-</pre>
+  </div>
 
   <button on:click={toggleName}>Toggle name</button>
   <p>
