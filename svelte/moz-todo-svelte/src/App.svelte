@@ -3,16 +3,32 @@
 
 
 	export let name;
-	export let data;
-	//let quotesApi = "httpS://127.0.0.1:3333/api/quoteSs"
-	const quotesApi = "/api/quotes"
+	export let quotes;
+	// https://medium.com/@TimvanBaarsen/how-to-connect-to-the-docker-host-from-inside-a-docker-container-112b4c71bc66
+	const quotesApi = "http://host.docker.internal:3333/api/quotes"
+	//const quotesApi = "http://192.168.65.2:3333/api/quotes"
+	//const quotesApi = "http://localhost:3333/api/quotes"
+	//const quotesApi = "http://localhost:3333/api/quotes"
+	//const quotesApi = "/api/quotes"
 
 	onMount(async () => {
 		console.log("onMount: begin...")
-		//response = await fetch(quotesApi);
-		const response = await fetch(quotesApi)
+		/* fetch(quotesApi)
+  			.then(response => response.json())
+			.then(data => {
+					console.log(">>>>>>>"+data);
+				data = data;
+			}).catch(error => {
+				console.log(error);
+				//return [{"quoteID":"1", "text": "bla fasel blubb", "author": "erwin"}];
+				data = [{"quoteID":"1", "text": "bla fasel blubb", "author": "erwin"}];
+			}); */
+		//response = await fetch('http://127.0.0.1:3333/api/quotes');
+		const response = await fetch('/api/quotes');
+		//const response = await fetch(quotesApi)
 		//data = await fetch(quotesApi).then((x)=>x.json())
-		data = await response.json()
+		quotes = await response.json()
+
 	//.then(response => response.json())
 	//.then(response => console.log(JSON.stringify(response, ' ', 2)))
 		
@@ -21,6 +37,7 @@
 		//console.log("onMount: response: "+response != undefined ? JSON.stringify(response) : 'n/a')
 
 // svelte recipes https://github.com/svelte-society/recipes-mvp/blob/master/components.md#using-fetch-to-consume-apis-with-svelte
+console.log("onMount: end")
 	});
 	function toggleName() {
     if (name === "world") {
@@ -36,16 +53,16 @@
 <pre>
 	
 abc
-{data}
+{quotes}
 zzz
-	{#await data}
+	{#await quotes}
 	aaa
 		
 	{/await}
 
-	{#if data}
+	{#if quotes}
 		Daten
-		{#each data as x}
+		{#each quotes as x}
 			<div>
 				<div>{x.author}</div>
 				<div>{x.text}</div>
