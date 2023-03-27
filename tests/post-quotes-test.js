@@ -33,6 +33,18 @@ test("create quote by post request", async (t) => {
     const result = await tiny.post({ url: 'http://localhost:3333/api/quotes', headers: headers, data: postData})
     t.ok(result, 'got 200 response')
   });
+
+test("create quote without `quoteID` by post request", async (t) => {
+  t.plan(1);
+  const postData = {"text": "itzelbritzel bla fasel blub", "author":"JavaVolker"}
+  const headers= {
+    'Content-Type': 'application/json',
+    'volker': "benders"
+  }
+  const result = await tiny.post({ url: 'http://localhost:3333/api/quotes', headers: headers, data: postData})
+  t.ok(result, 'got 201 response')
+});
+
   
 test("teardown", async (t) => {
     t.plan(1);
