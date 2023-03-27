@@ -9,9 +9,14 @@ export async function handler (req) {
   const headers = req.headers
   //console.log('quotes-post: header: ' + JSON.stringify(headers))
   const body = arc.http.helpers.bodyParser(req)
+  if (body && !body['quoteID']){
+    body['quoteID'] = new Date(Date.now()).toISOString()
+  }
+  console.log('quotes-post: quote-input: ' + JSON.stringify(body, ' ', 2))
   //console.log('quotes-post: request-body: ',(body != undefined ? JSON.stringify(body) : 'no body?!'))
 //  console.log('quotes-post: body: ' + body)
   const data = await arc.tables()
+
   const quote = await data.quotes.put(body)
   console.log('quotes-post: quote: ' + JSON.stringify(quote))
   //const quotes = await data.tables()
