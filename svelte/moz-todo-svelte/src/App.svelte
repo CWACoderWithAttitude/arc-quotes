@@ -34,22 +34,24 @@
     console.log(data);
     // https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
     const response = await fetch(quotesApi, {
-      method: "POST", // *GET, POST, PUT, DELETE, etc.
-      mode: "cors", // no-cors, *cors, same-origin
-      cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
-      credentials: "same-origin", // include, *same-origin, omit
+      method: "POST",
+      mode: "cors",
+      cache: "no-cache",
+      credentials: "same-origin",
       headers: {
         "Content-Type": "application/json",
-        // 'Content-Type': 'application/x-www-form-urlencoded',
       },
-      redirect: "follow", // manual, *follow, error
-      referrerPolicy: "no-referrer", // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
-      body: JSON.stringify(data), // body data type must match "Content-Type" header
+      redirect: "follow", 
+      referrerPolicy: "no-referrer",
+      body: JSON.stringify(data),
     });
   }
-  //https://stackoverflow.com/questions/58262380/how-to-pass-parameters-to-onclick-in-svelte
+  // https://stackoverflow.com/questions/58262380/how-to-pass-parameters-to-onclick-in-svelte
+  // https://jasonwatmore.com/post/2021/09/21/fetch-http-delete-request-examples
   async function onDelete(id) {
     console.log("onDelete: id:" + JSON.stringify(id));
+    const response = await fetch(`${quotesApi}/${id}`, { method: "DELETE" });
+    console.debug('delete-Response: ' + JSON.stringify(response, ' ', 2))
   }
 </script>
 
@@ -80,7 +82,7 @@
         </tr>
         {#each quotes as x}
           <tr>
-            <td>id:{x.author}</td><td> {x.author}</td><td> {x.text}</td><td
+            <td>id:{x.quoteID}</td><td> {x.author}</td><td> {x.text}</td><td
               ><input
                 type="button"
                 value="Delete"

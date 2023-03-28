@@ -34,6 +34,7 @@ test("body", async (t) => {
   t.ok(result.body, 'no body in response?!')
   t.notEqual(result.body, "itzelbritzel")
   t.equal(result.body.length, 18, 'wrong number of items in test data')
+  console.debug('test: getQuotes: quotes: ' + JSON.stringify(result.body, ' ', 2))
 });
 
 test("teardown", async (t) => {
