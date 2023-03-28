@@ -11,7 +11,7 @@
     const response = await fetch(quotesApi);
     quotes = await response.json();
 	if (quotes != undefined){
-		console.log(`onMount: fetched ${quotes.length} quaotes`)
+		console.debug(`onMount: fetched ${quotes.length} quaotes`)
 	}
     console.log("onMount: end");
   });
@@ -34,19 +34,23 @@
     console.log(data)
 	// https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
 	const response = await fetch(quotesApi, {
-    method: "POST", // *GET, POST, PUT, DELETE, etc.
-    mode: "cors", // no-cors, *cors, same-origin
-    cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
-    credentials: "same-origin", // include, *same-origin, omit
-    headers: {
-      "Content-Type": "application/json",
-      // 'Content-Type': 'application/x-www-form-urlencoded',
-    },
-    redirect: "follow", // manual, *follow, error
-    referrerPolicy: "no-referrer", // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
-    body: JSON.stringify(data), // body data type must match "Content-Type" header
-  });
-}
+		method: "POST", // *GET, POST, PUT, DELETE, etc.
+		mode: "cors", // no-cors, *cors, same-origin
+		cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
+		credentials: "same-origin", // include, *same-origin, omit
+		headers: {
+		"Content-Type": "application/json",
+		// 'Content-Type': 'application/x-www-form-urlencoded',
+		},
+		redirect: "follow", // manual, *follow, error
+		referrerPolicy: "no-referrer", // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
+		body: JSON.stringify(data), // body data type must match "Content-Type" header
+    });
+  }
+  //https://stackoverflow.com/questions/58262380/how-to-pass-parameters-to-onclick-in-svelte
+  async function onDelete(id){
+	console.log('onDelete: id:' + JSON.stringify(id))
+  }
 </script>
 
 <main>
@@ -78,10 +82,14 @@
   </div>
   <div>
 	{#if quotes}
+	<table>
 		{#each quotes as x}
-			<li>{x.author}: {x.text}</li>
-      {/each}
-    {:else}
+		<tr>
+			<td>id:{x.author}</td><td> {x.author}</td><td> {x.text}</td><td><input type="button" value="Delete" on:click={() => onDelete(x.quoteID)}/></td>
+		</tr>
+		{/each}
+	</table>
+		{:else}
       Bitte warte, ich lese Daten...
     {/if}
   </div>
