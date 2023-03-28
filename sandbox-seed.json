@@ -87,6 +87,76 @@
             "quoteID": "18",
             "author": "Steve Jobs",
             "text": "The ones who are crazy enough ti think they can change the world are the ones who do"
+        },
+        {
+            "quoteID": "19",
+            "author": "Mark Twain",
+            "text": "It ain't what you don't know what gets you into trouble - It's what you know for sure that just ain't so  "
+        },
+        {
+            "quoteID": "20",
+            "author": "Mark Twain",
+            "text": "The two most important days in your life are the day when you where born and the day you find out why"
+        },
+        {
+            "quoteID": "21",
+            "author": "Thomas J. Watson (former head of big blue)",
+            "text": "I think there is a world market for maybe five computers"
+        },
+        {
+            "quoteID": "22",
+            "author": "Adrian Cockcroft, Netflix Cloud Architect",
+            "text": "Server errors are not my problem. I'm renting them"
+        },
+        {
+            "quoteID": "23",
+            "author": "Simon Sinek",
+            "text": "You don´t hire for skills. You hire for attitude. You can always teach skills later "
+        },
+        {
+            "quoteID": "24",
+            "author": "Jon Reid, @qcoding",
+            "text": "Code coverage can be misleading - but lack of coverage is always true."
+        },
+        {
+            "quoteID": "25",
+            "author": "Origin unknown",
+            "text": "You can't write good tests for bad code"
+        },
+        {
+            "quoteID": "26",
+            "author": "Gene Kim - The DevOps Handbook",
+            "text": "Improving daily work is even more important than doing daily work."
+        },
+        {
+            "quoteID": "27",
+            "author": "Dominica DeGrandis - Making Work Visible",
+            "text": "Godhart's law: When the focus is on the metric instead of the goal, it's a problem."
+        },
+        {
+            "quoteID": "28",
+            "author": "Michael Feathers",
+            "text": "Legacy code is simply code without tests."
+        },
+        {
+            "quoteID": "29",
+            "author": "Dylan Beattie",
+            "text": "Legacy Code: Code that's too scary to update and too profitable to delete"
+        },
+        {
+            "quoteID": "30",
+            "author": "Yoda",
+            "text": "Fear is the path to the dark side:  Fear leads to anger Anger leads to hate Hate leads to suffering  "
+        },
+        {
+            "quoteID": "31",
+            "author": "Douglas Adams",
+            "text": "Technology is stuff that doesn't work yet - when it works it's just stuff"
+        },
+        {
+            "quoteID": "32",
+            "author": "Bruce Lee",
+            "text": "A goal is not always meant to be reached - it often serves simply as something to aim at."
         }
     ]
 }
