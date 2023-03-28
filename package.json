@@ -11,7 +11,8 @@
     "watchGetByIdTests": "npx tape-watch tests/*byID-test.js",
     "watchDeleteTests": "npx tape-watch tests/delete*-test.js",
     "coverage": "istanbul cover tape tests/*-test.js",
-    "start": "npx sandbox"
+    "start": "npx sandbox",
+    "deployToStaging": "arc deploy"
   },
   "devDependencies": {
     "istanbul": "^0.4.5",
