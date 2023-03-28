@@ -5,6 +5,7 @@ test1
 #get /
 get /api/quotes
 get /api/quotes/:quoteID
+delete /api/quotes/:quoteID
 post /api/quotes
 
 @aws
