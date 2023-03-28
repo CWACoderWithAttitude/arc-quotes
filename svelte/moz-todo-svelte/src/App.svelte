@@ -76,19 +76,16 @@
     {#if quotes}
       <table>
         <tr>
-          <th>id</th>
-          <th>autjor</th>
+          <th>ID</th>
+          <th>Author</th>
           <th>Quote</th>
         </tr>
         {#each quotes as x}
           <tr>
-            <td>id:{x.quoteID}</td><td> {x.author}</td><td> {x.text}</td><td
-              ><input
-                type="button"
-                value="Delete"
-                on:click={() => onDelete(x.quoteID)}
-              /></td
-            >
+            <td>{x.quoteID}</td>
+            <td>{x.author}</td>
+            <td>{x.text}</td>
+            <td><input type="button" value="Delete" on:click={() => onDelete(x.quoteID)} /></td>
           </tr>
         {/each}
       </table>
