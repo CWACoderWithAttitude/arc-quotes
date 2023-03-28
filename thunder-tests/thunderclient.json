@@ -36,5 +36,52 @@
       "form": []
     },
     "tests": []
+  },
+  {
+    "_id": "de469e53-fa06-4e3d-b21d-3e1acd243245",
+    "colId": "b0122b5d-472a-490d-904b-39127d0fad5d",
+    "containerId": "",
+    "name": "create quote",
+    "url": "http://127.0.0.1:3333/api/quotes",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2023-03-28T08:33:04.991Z",
+    "modified": "2023-03-28T09:39:15.338Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"quoteID\":\"12345678\",\n  \"author\":\"volker\",\n  \"tesxt\": \"blas bfasel blub\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "5164678d-bee3-49b1-98e9-5b6d747c0111",
+    "colId": "b0122b5d-472a-490d-904b-39127d0fad5d",
+    "containerId": "",
+    "name": "delete quote by id",
+    "url": "http://127.0.0.1:3333/api/quotes/12345678",
+    "method": "DELETE",
+    "sortNum": 20000,
+    "created": "2023-03-28T08:33:04.992Z",
+    "modified": "2023-03-28T09:39:38.089Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "d4bc9f11-3e36-4d36-b0f2-c9cd6d6186ca",
+    "colId": "b0122b5d-472a-490d-904b-39127d0fad5d",
+    "containerId": "",
+    "name": "get Quote by id",
+    "url": "http://127.0.0.1:3333/api/quotes/12345678",
+    "method": "GET",
+    "sortNum": 15000,
+    "created": "2023-03-28T09:36:26.270Z",
+    "modified": "2023-03-28T09:39:25.612Z",
+    "headers": [],
+    "params": [],
+    "tests": []
   }
 ]
