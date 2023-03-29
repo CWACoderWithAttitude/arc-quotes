@@ -20,7 +20,9 @@
         "asciidoctor.asciidoctor-vscode",
         "svelte.svelte-vscode",
         "ardenivanov.svelte-intellisense",
-        "SeyyedKhandon.gpack"
+        "SeyyedKhandon.gpack",
+        "redhat.vscode-yaml",
+        "PKief.material-icon-theme"
       ]
     }
   },
