@@ -1,6 +1,6 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Transform: AWS::Serverless-2016-10-31
-Description: Exported by architect/package@8.4.1 on 2023-03-28T19:46:55.462Z
+Description: Exported by architect/package@8.4.1 on 2023-03-29T11:09:14.459Z
 Resources:
   Role:
     Type: AWS::IAM::Role
@@ -175,6 +175,15 @@ Resources:
                 uri:
                   Fn::Sub: arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${GetCatchallHTTPLambda.Arn}/invocations
                 connectionType: INTERNET
+          /api/quotesUpload:
+            post:
+              x-amazon-apigateway-integration:
+                payloadFormatVersion: '2.0'
+                type: aws_proxy
+                httpMethod: POST
+                uri:
+                  Fn::Sub: arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${PostApiQuotesUploadHTTPLambda.Arn}/invocations
+                connectionType: INTERNET
           /_static/{proxy+}:
             get:
               x-amazon-apigateway-integration:
@@ -192,7 +201,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       Handler: index.handler
-      CodeUri: s3://test1-cfn-deployments-d6da7/3d850c13a4802f6db9997b74f200fdd8
+      CodeUri: s3://test1-cfn-deployments-becd5/3bf28d7107cf67ca11d0b29466acc0b3
       Runtime: nodejs16.x
       Architectures:
       - arm64
@@ -234,7 +243,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       Handler: index.handler
-      CodeUri: s3://test1-cfn-deployments-d6da7/ba5cdb7cdf05869e907376e2b1598ec9
+      CodeUri: s3://test1-cfn-deployments-becd5/50bef7d8de98c4c1cf61c167e4afb7d0
       Runtime: nodejs16.x
       Architectures:
       - arm64
@@ -276,7 +285,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       Handler: index.handler
-      CodeUri: s3://test1-cfn-deployments-d6da7/490d194216c4b61867de65690e9d82bf
+      CodeUri: s3://test1-cfn-deployments-becd5/490d194216c4b61867de65690e9d82bf
       Runtime: nodejs16.x
       Architectures:
       - x86_64
@@ -319,7 +328,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       Handler: index.handler
-      CodeUri: s3://test1-cfn-deployments-d6da7/3d8a609ad188bb7065d740df0a68f355
+      CodeUri: s3://test1-cfn-deployments-becd5/48918693387f4264b3d399a976c27f20
       Runtime: nodejs16.x
       Architectures:
       - arm64
@@ -357,11 +366,53 @@ Resources:
       name: post /api/quotes
       method: post
       path: /api/quotes
+  PostApiQuotesUploadHTTPLambda:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: index.handler
+      CodeUri: s3://test1-cfn-deployments-becd5/bb6d5ff639fadc1169df0559747ae850
+      Runtime: nodejs16.x
+      Architectures:
+      - arm64
+      MemorySize: 1152
+      EphemeralStorage:
+        Size: 512
+      Timeout: 5
+      Environment:
+        Variables:
+          ARC_APP_NAME: test1
+          ARC_ENV: staging
+          ARC_ROLE:
+            Ref: Role
+          ARC_SESSION_TABLE_NAME: jwe
+          ARC_STACK_NAME:
+            Ref: AWS::StackName
+          ARC_STATIC_BUCKET:
+            Ref: StaticBucket
+          ARC_STATIC_SPA: false
+      Role:
+        Fn::Sub:
+        - arn:aws:iam::${AWS::AccountId}:role/${roleName}
+        - roleName:
+            Ref: Role
+      Events:
+        PostApiQuotesUploadHTTPEvent:
+          Type: HttpApi
+          Properties:
+            Path: /api/quotesUpload
+            Method: POST
+            ApiId:
+              Ref: HTTP
+    ArcMetadata:
+      pragma: http
+      name: post /api/quotesUpload
+      method: post
+      path: /api/quotesUpload
   DeleteApiQuotesQuoteIDHTTPLambda:
     Type: AWS::Serverless::Function
     Properties:
       Handler: index.handler
-      CodeUri: s3://test1-cfn-deployments-d6da7/7e667a86210447a1380c75ff6d46144b
+      CodeUri: s3://test1-cfn-deployments-becd5/e4a341979d8b45967ee56e922cc3e7d7
       Runtime: nodejs16.x
       Architectures:
       - arm64

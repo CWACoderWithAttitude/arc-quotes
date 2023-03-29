@@ -12,5 +12,80 @@
     "headers": [],
     "params": [],
     "tests": []
+  },
+  {
+    "_id": "210b23d9-23aa-48ce-ae45-70d20948ce33",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://127.0.0.1:3333/api/quotesUpload",
+    "url": "http://127.0.0.1:3333/api/quotesUpload",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-03-29T10:00:54.276Z",
+    "modified": "2023-03-29T10:21:16.922Z",
+    "headers": [
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "binary",
+      "raw": "",
+      "form": [],
+      "binary": "../sandbox-seed.json"
+    },
+    "tests": []
+  },
+  {
+    "_id": "ba1430a2-2e5a-4b44-870e-9655b80df291",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://h23xzs4hx5.execute-api.eu-central-1.amazonaws.com/api/quotesUpload",
+    "url": "https://h23xzs4hx5.execute-api.eu-central-1.amazonaws.com/api/quotesUpload",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-03-29T11:01:49.549Z",
+    "modified": "2023-03-29T11:01:49.549Z",
+    "headers": [
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "binary",
+      "raw": "",
+      "form": [],
+      "binary": "../sandbox-seed.json"
+    },
+    "tests": []
+  },
+  {
+    "_id": "f5f95b16-1bd8-4c7b-a07a-0d1807e07296",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{API_URL}}/api/quotesUpload",
+    "url": "{{API_URL}}/api/quotesUpload",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-03-29T11:13:50.100Z",
+    "modified": "2023-03-29T11:13:50.100Z",
+    "headers": [
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "binary",
+      "raw": "",
+      "form": [],
+      "binary": "../sandbox-seed.json"
+    },
+    "tests": []
   }
 ]

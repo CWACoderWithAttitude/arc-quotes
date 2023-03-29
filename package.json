@@ -12,7 +12,11 @@
     "watchDeleteTests": "npx tape-watch tests/delete*-test.js",
     "coverage": "istanbul cover tape tests/*-test.js",
     "start": "npx sandbox",
-    "deployToStaging": "arc deploy"
+    "generateDeploymentFiles": "arc deploy --dry-run",
+    "deployToStaging": "arc deploy",
+    "deployQuotesUploadOnly": "npx arc deploy --direct src/http/post-api-quotesUpload/",
+    "logsQuotesUpload": "arc logs  src/http/post-api-quotesUpload",
+    "destroyApp":"npx arc destroy --app test1 --force"
   },
   "devDependencies": {
     "istanbul": "^0.4.5",
@@ -24,6 +28,7 @@
   "dependencies": {
     "@architect/architect": "^10.10.2",
     "@architect/functions": "^5.4.0",
-    "npm": "^9.6.2"
+    "npm": "^9.6.2",
+    "uuid": "^9.0.0"
   }
 }

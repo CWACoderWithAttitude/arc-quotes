@@ -42,16 +42,16 @@
     "colId": "b0122b5d-472a-490d-904b-39127d0fad5d",
     "containerId": "",
     "name": "create quote",
-    "url": "http://127.0.0.1:3333/api/quotes",
+    "url": "https://h23xzs4hx5.execute-api.eu-central-1.amazonaws.com/api/quotesUpload",
     "method": "POST",
     "sortNum": 10000,
     "created": "2023-03-28T08:33:04.991Z",
-    "modified": "2023-03-28T09:39:15.338Z",
+    "modified": "2023-03-29T11:28:15.687Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"quoteID\":\"12345678\",\n  \"author\":\"volker\",\n  \"tesxt\": \"blas bfasel blub\"\n}",
+      "raw": "{\n    \"quotes\": [\n        {\n            \"quoteID\": \"1\",\n            \"author\": \"Picard, Jean-Luc\",\n            \"text\": \"Make it so!\"\n        }\n    ]\n}",
       "form": []
     },
     "tests": []
@@ -82,6 +82,31 @@
     "modified": "2023-03-28T09:39:25.612Z",
     "headers": [],
     "params": [],
+    "tests": []
+  },
+  {
+    "_id": "b54ed5d8-8895-4a56-814c-56a6ee5840b0",
+    "colId": "5a3fb45f-9429-4ebb-8a18-8a8578576667",
+    "containerId": "",
+    "name": "Upload valid json file with quotes",
+    "url": "{{API_URL}}/api/quotesUpload",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2023-03-29T11:23:15.571Z",
+    "modified": "2023-03-29T11:23:15.571Z",
+    "headers": [
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "binary",
+      "raw": "",
+      "form": [],
+      "binary": "../sandbox-seed.json"
+    },
     "tests": []
   }
 ]
