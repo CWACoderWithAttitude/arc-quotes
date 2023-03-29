@@ -1,7 +1,7 @@
 {
   "AWSTemplateFormatVersion": "2010-09-09",
   "Transform": "AWS::Serverless-2016-10-31",
-  "Description": "Exported by architect/package@8.4.1 on 2023-03-28T19:46:55.462Z",
+  "Description": "Exported by architect/package@8.4.1 on 2023-03-29T11:44:08.216Z",
   "Resources": {
     "Role": {
       "Type": "AWS::IAM::Role",
@@ -295,6 +295,19 @@
                 }
               }
             },
+            "/api/quotesUpload": {
+              "post": {
+                "x-amazon-apigateway-integration": {
+                  "payloadFormatVersion": "2.0",
+                  "type": "aws_proxy",
+                  "httpMethod": "POST",
+                  "uri": {
+                    "Fn::Sub": "arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${PostApiQuotesUploadHTTPLambda.Arn}/invocations"
+                  },
+                  "connectionType": "INTERNET"
+                }
+              }
+            },
             "/_static/{proxy+}": {
               "get": {
                 "x-amazon-apigateway-integration": {
@@ -563,6 +576,67 @@
         "name": "post /api/quotes",
         "method": "post",
         "path": "/api/quotes"
+      }
+    },
+    "PostApiQuotesUploadHTTPLambda": {
+      "Type": "AWS::Serverless::Function",
+      "Properties": {
+        "Handler": "index.handler",
+        "CodeUri": "/src/src/http/post-api-quotesUpload",
+        "Runtime": "nodejs16.x",
+        "Architectures": [
+          "arm64"
+        ],
+        "MemorySize": 1152,
+        "EphemeralStorage": {
+          "Size": 512
+        },
+        "Timeout": 5,
+        "Environment": {
+          "Variables": {
+            "ARC_APP_NAME": "test1",
+            "ARC_ENV": "staging",
+            "ARC_ROLE": {
+              "Ref": "Role"
+            },
+            "ARC_SESSION_TABLE_NAME": "jwe",
+            "ARC_STACK_NAME": {
+              "Ref": "AWS::StackName"
+            },
+            "ARC_STATIC_BUCKET": {
+              "Ref": "StaticBucket"
+            },
+            "ARC_STATIC_SPA": false
+          }
+        },
+        "Role": {
+          "Fn::Sub": [
+            "arn:aws:iam::${AWS::AccountId}:role/${roleName}",
+            {
+              "roleName": {
+                "Ref": "Role"
+              }
+            }
+          ]
+        },
+        "Events": {
+          "PostApiQuotesUploadHTTPEvent": {
+            "Type": "HttpApi",
+            "Properties": {
+              "Path": "/api/quotesUpload",
+              "Method": "POST",
+              "ApiId": {
+                "Ref": "HTTP"
+              }
+            }
+          }
+        }
+      },
+      "ArcMetadata": {
+        "pragma": "http",
+        "name": "post /api/quotesUpload",
+        "method": "post",
+        "path": "/api/quotesUpload"
       }
     },
     "DeleteApiQuotesQuoteIDHTTPLambda": {

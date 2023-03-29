@@ -7,6 +7,7 @@ get /api/quotes
 get /api/quotes/:quoteID
 delete /api/quotes/:quoteID
 post /api/quotes
+post /api/quotesUpload
 
 @aws
 # profile default

@@ -1,1 +1,31 @@
-[]
+[
+  {
+    "_id": "11cd58c5-c951-4611-91f5-2e63dcba51c9",
+    "name": "(Local Env)",
+    "default": false,
+    "global": true,
+    "local": true,
+    "sortNum": -1,
+    "created": "2023-03-29T11:10:39.883Z",
+    "modified": "2023-03-29T11:10:39.883Z",
+    "data": []
+  },
+  {
+    "_id": "03630e9c-ff2f-4eb5-9b72-23428a535b97",
+    "name": "AWS",
+    "default": true,
+    "sortNum": 10000,
+    "created": "2023-03-29T11:11:01.234Z",
+    "modified": "2023-03-29T11:11:01.234Z",
+    "data": [
+      {
+        "name": "API_URL",
+        "value": "https://h23xzs4hx5.execute-api.eu-central-1.amazonaws.com"
+      },
+      {
+        "name": "WEB_URL",
+        "value": "https://test1staging-staticbucket-txf4ahjobqfq.s3.eu-central-1.amazonaws.com"
+      }
+    ]
+  }
+]
