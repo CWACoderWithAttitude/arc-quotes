@@ -21,6 +21,8 @@ A bunch of example requests can be found https://reqbin.com/[here]
 
 more info on https://developers.refinitiv.com/en/article-catalog/article/how-to-test-http-rest-api-easily-with-visual-studio-code---thund[thunderclient here]
 
+=== Github
+- https://github.blog/2023-03-28-announcing-the-github-actions-extension-for-vs-code/[VS Code Extension: Github Actions]
 === Frontend 
 
 ==== Sveltekit

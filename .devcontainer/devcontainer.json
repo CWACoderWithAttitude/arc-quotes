@@ -22,7 +22,8 @@
         "ardenivanov.svelte-intellisense",
         "SeyyedKhandon.gpack",
         "redhat.vscode-yaml",
-        "PKief.material-icon-theme"
+        "PKief.material-icon-theme",
+        "github.vscode-github-actions"
       ]
     }
   },

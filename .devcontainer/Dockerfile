@@ -10,4 +10,5 @@ RUN apt-get update
 RUN apt-get install -y \
     lsb-release \
     curl \
-    awscli
+    awscli \ 
+    jq

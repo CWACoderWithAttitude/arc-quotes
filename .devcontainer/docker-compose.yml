@@ -2,10 +2,10 @@ version: '3.7'
 
 services:
   devcontainer:
-    image: javavolker/quotesservice-dev-container:0.1
+    image: javavolker/arc-quotesservice-dev-container:0.1
     build: .
-    container_name: quotesservice-dev-container
-    hostname: quotesservice-dev.local
+    container_name: arc-quotesservice-dev-container
+    hostname: arc-quotesservice-dev.local
     working_dir: /src
     volumes:
        - ..:/src
