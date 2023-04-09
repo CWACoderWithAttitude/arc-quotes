@@ -16,7 +16,7 @@
     "deployToStaging": "arc deploy",
     "deployQuotesUploadOnly": "npx arc deploy --direct src/http/post-api-quotesUpload/",
     "logsQuotesUpload": "arc logs  src/http/post-api-quotesUpload",
-    "destroyApp":"npx arc destroy --app test1 --force"
+    "destroyApp": "npx arc destroy --app test1 --force"
   },
   "devDependencies": {
     "istanbul": "^0.4.5",
@@ -28,7 +28,7 @@
   "dependencies": {
     "@architect/architect": "^10.10.2",
     "@architect/functions": "^5.4.0",
-    "npm": "^9.6.2",
+    "npm": "^9.6.3",
     "uuid": "^9.0.0"
   }
 }

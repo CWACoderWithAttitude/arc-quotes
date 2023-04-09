@@ -1,162 +1,246 @@
 {
-    "quotes": [
-        {
-            "quoteID": "1",
-            "author": "Picard, Jean-Luc",
-            "text": "Make it so!"
-        },
-        {
-            "quoteID": "2",
-            "author": "Walbaum, Frank",
-            "text": "Planung ersetzt Zufall durch Irrtum"
-        },
-        {
-            "quoteID": "3",
-            "author": "Staubsaugerina",
-            "text": "Pech fürs Schwein"
-        },
-        {
-            "quoteID": "4",
-            "author": "Reiners, Till",
-            "text": "Erwachsene sind wie Kinder mit Geld. Oder Schulden - Ja nachdem wie es läuft"
-        },
-        {
-            "quoteID": "5",
-            "author": "@WisdomMadeEasy",
-            "text": "Don't just pratice until you can do it right. Practice until you can't do it wrong "
-        },
-        {
-            "quoteID": "6",
-            "author": "Söder, Markus",
-            "text": "It's nice to be a preiss - but it's higher to be a bayer."
-        },
-        {
-            "quoteID": "7",
-            "author": "unknown",
-            "text": "Dont listen with the intent to reply. But with the intent to understand"
-        },
-        {
-            "quoteID": "8",
-            "author": "unknown",
-            "text": "When you invest in your employees, you invest in your companys future"
-        },{
-            "quoteID": "9",
-            "author": "Millamn, Dan",
-            "text": "𝘋𝘢𝘴 𝘎𝘦𝘩𝘦𝘪𝘮𝘯𝘪𝘴 𝘥𝘦𝘳 𝘝𝘦𝘳𝘢̈𝘯𝘥𝘦𝘳𝘶𝘯𝘨 𝘪𝘴𝘵, 𝘥𝘢𝘴𝘴 𝘮𝘢𝘯 𝘴𝘪𝘤𝘩 𝘮𝘪𝘵 𝘢𝘭𝘭 𝘴𝘦𝘪𝘯𝘦 𝘌𝘯𝘦𝘳𝘨𝘪𝘦 𝘯𝘪𝘤𝘩𝘵 𝘥𝘢𝘳𝘢𝘶𝘧 𝘬𝘰𝘯𝘻𝘦𝘯𝘵𝘳𝘪𝘦𝘳𝘵, 𝘥𝘢𝘴 𝘈𝘭𝘵𝘦 𝘻𝘶 𝘣𝘦𝘬𝘢̈𝘮𝘱𝘧𝘦𝘯, 𝘴𝘰𝘯𝘥𝘦𝘳𝘯 𝘥𝘢𝘳𝘢𝘶𝘧, 𝘥𝘢𝘴 𝘕𝘦𝘶𝘦 𝘻𝘶 𝘦𝘳𝘣𝘢𝘶𝘦𝘯"
-        },{
-            "quoteID": "10",
-            "author": "Gary Travis, BloomingBound.com",
-            "text": "Don't confuse a high salary with a great career."
-        },
-        {
-            "quoteID": "11",
-            "author": "Claus von Wagner, Die Anstalt",
-            "text": "Wer Bild-Zeitung liest um sich zu informieren, der trinkt auch Schnaps wenn er Durst hat."
-        },
-        {
-            "quoteID": "12",
-            "author": "Nat Friedman, GitHub CEO",
-            "text": "Pessimists sound smart - optimists make money."
-        },
-        {
-            "quoteID": "13",
-            "author": "Robet Mc Call",
-            "text": "Progress - not perfection"
-        },
-        {
-            "quoteID": "14",
-            "author": "Abraham Lincoln",
-            "text": "You can not trust quotes on the internet"
-        },
-        {
-            "quoteID": "15",
-            "author": "Scott Hanselmann",
-            "text": "The cloud doesn't care about language choice."
-        },
-        {
-            "quoteID": "16",
-            "author": "Unknown",
-            "text": "Truth is like poetry - and most people hate poetry."
-        },
-        {
-            "quoteID": "17",
-            "author": "Vivian Green",
-            "text": "Life isn't about waiting for the storm to pass; it's about learning to dance in the rain."
-        },
-        {
-            "quoteID": "18",
-            "author": "Steve Jobs",
-            "text": "The ones who are crazy enough ti think they can change the world are the ones who do"
-        },
-        {
-            "quoteID": "19",
-            "author": "Mark Twain",
-            "text": "It ain't what you don't know what gets you into trouble - It's what you know for sure that just ain't so  "
-        },
-        {
-            "quoteID": "20",
-            "author": "Mark Twain",
-            "text": "The two most important days in your life are the day when you where born and the day you find out why"
-        },
-        {
-            "quoteID": "21",
-            "author": "Thomas J. Watson (former head of big blue)",
-            "text": "I think there is a world market for maybe five computers"
-        },
-        {
-            "quoteID": "22",
-            "author": "Adrian Cockcroft, Netflix Cloud Architect",
-            "text": "Server errors are not my problem. I'm renting them"
-        },
-        {
-            "quoteID": "23",
-            "author": "Simon Sinek",
-            "text": "You don´t hire for skills. You hire for attitude. You can always teach skills later "
-        },
-        {
-            "quoteID": "24",
-            "author": "Jon Reid, @qcoding",
-            "text": "Code coverage can be misleading - but lack of coverage is always true."
-        },
-        {
-            "quoteID": "25",
-            "author": "Origin unknown",
-            "text": "You can't write good tests for bad code"
-        },
-        {
-            "quoteID": "26",
-            "author": "Gene Kim - The DevOps Handbook",
-            "text": "Improving daily work is even more important than doing daily work."
-        },
-        {
-            "quoteID": "27",
-            "author": "Dominica DeGrandis - Making Work Visible",
-            "text": "Godhart's law: When the focus is on the metric instead of the goal, it's a problem."
-        },
-        {
-            "quoteID": "28",
-            "author": "Michael Feathers",
-            "text": "Legacy code is simply code without tests."
-        },
-        {
-            "quoteID": "29",
-            "author": "Dylan Beattie",
-            "text": "Legacy Code: Code that's too scary to update and too profitable to delete"
-        },
-        {
-            "quoteID": "30",
-            "author": "Yoda",
-            "text": "Fear is the path to the dark side:  Fear leads to anger Anger leads to hate Hate leads to suffering  "
-        },
-        {
-            "quoteID": "31",
-            "author": "Douglas Adams",
-            "text": "Technology is stuff that doesn't work yet - when it works it's just stuff"
-        },
-        {
-            "quoteID": "32",
-            "author": "Bruce Lee",
-            "text": "A goal is not always meant to be reached - it often serves simply as something to aim at."
-        }
-    ]
+  "quotes": [
+    {
+      "quoteID": "1",
+      "author": "Picard, Jean-Luc",
+      "text": "Make it so!"
+    },
+    {
+      "quoteID": "2",
+      "author": "Walbaum, Frank",
+      "text": "Planung ersetzt Zufall durch Irrtum"
+    },
+    {
+      "quoteID": "3",
+      "author": "Staubsaugerina",
+      "text": "Pech fürs Schwein"
+    },
+    {
+      "quoteID": "4",
+      "author": "Reiners, Till",
+      "text": "Erwachsene sind wie Kinder mit Geld. Oder Schulden - Ja nachdem wie es läuft"
+    },
+    {
+      "quoteID": "5",
+      "author": "@WisdomMadeEasy",
+      "text": "Don't just pratice until you can do it right. Practice until you can't do it wrong "
+    },
+    {
+      "quoteID": "6",
+      "author": "Söder, Markus",
+      "text": "It's nice to be a preiss - but it's higher to be a bayer."
+    },
+    {
+      "quoteID": "7",
+      "author": "unknown",
+      "text": "Dont listen with the intent to reply. But with the intent to understand"
+    },
+    {
+      "quoteID": "8",
+      "author": "unknown",
+      "text": "When you invest in your employees, you invest in your companys future"
+    },
+    {
+      "quoteID": "9",
+      "author": "Millamn, Dan",
+      "text": "𝘋𝘢𝘴 𝘎𝘦𝘩𝘦𝘪𝘮𝘯𝘪𝘴 𝘥𝘦𝘳 𝘝𝘦𝘳𝘢̈𝘯𝘥𝘦𝘳𝘶𝘯𝘨 𝘪𝘴𝘵, 𝘥𝘢𝘴𝘴 𝘮𝘢𝘯 𝘴𝘪𝘤𝘩 𝘮𝘪𝘵 𝘢𝘭𝘭 𝘴𝘦𝘪𝘯𝘦 𝘌𝘯𝘦𝘳𝘨𝘪𝘦 𝘯𝘪𝘤𝘩𝘵 𝘥𝘢𝘳𝘢𝘶𝘧 𝘬𝘰𝘯𝘻𝘦𝘯𝘵𝘳𝘪𝘦𝘳𝘵, 𝘥𝘢𝘴 𝘈𝘭𝘵𝘦 𝘻𝘶 𝘣𝘦𝘬𝘢̈𝘮𝘱𝘧𝘦𝘯, 𝘴𝘰𝘯𝘥𝘦𝘳𝘯 𝘥𝘢𝘳𝘢𝘶𝘧, 𝘥𝘢𝘴 𝘕𝘦𝘶𝘦 𝘻𝘶 𝘦𝘳𝘣𝘢𝘶𝘦𝘯"
+    },
+    {
+      "quoteID": "10",
+      "author": "Gary Travis, BloomingBound.com",
+      "text": "Don't confuse a high salary with a great career."
+    },
+    {
+      "quoteID": "11",
+      "author": "Claus von Wagner, Die Anstalt",
+      "text": "Wer Bild-Zeitung liest um sich zu informieren, der trinkt auch Schnaps wenn er Durst hat."
+    },
+    {
+      "quoteID": "12",
+      "author": "Nat Friedman, GitHub CEO",
+      "text": "Pessimists sound smart - optimists make money."
+    },
+    {
+      "quoteID": "13",
+      "author": "Robet Mc Call",
+      "text": "Progress - not perfection"
+    },
+    {
+      "quoteID": "14",
+      "author": "Abraham Lincoln",
+      "text": "You can not trust quotes on the internet"
+    },
+    {
+      "quoteID": "15",
+      "author": "Scott Hanselmann",
+      "text": "The cloud doesn't care about language choice."
+    },
+    {
+      "quoteID": "16",
+      "author": "Unknown",
+      "text": "Truth is like poetry - and most people hate poetry."
+    },
+    {
+      "quoteID": "17",
+      "author": "Vivian Green",
+      "text": "Life isn't about waiting for the storm to pass; it's about learning to dance in the rain."
+    },
+    {
+      "quoteID": "18",
+      "author": "Steve Jobs",
+      "text": "The ones who are crazy enough ti think they can change the world are the ones who do"
+    },
+    {
+      "quoteID": "19",
+      "author": "Mark Twain",
+      "text": "It ain't what you don't know what gets you into trouble - It's what you know for sure that just ain't so  "
+    },
+    {
+      "quoteID": "20",
+      "author": "Mark Twain",
+      "text": "The two most important days in your life are the day when you where born and the day you find out why"
+    },
+    {
+      "quoteID": "21",
+      "author": "Thomas J. Watson (former head of big blue)",
+      "text": "I think there is a world market for maybe five computers"
+    },
+    {
+      "quoteID": "22",
+      "author": "Adrian Cockcroft, Netflix Cloud Architect",
+      "text": "Server errors are not my problem. I'm renting them"
+    },
+    {
+      "quoteID": "23",
+      "author": "Simon Sinek",
+      "text": "You don´t hire for skills. You hire for attitude. You can always teach skills later "
+    },
+    {
+      "quoteID": "24",
+      "author": "Jon Reid, @qcoding",
+      "text": "Code coverage can be misleading - but lack of coverage is always true."
+    },
+    {
+      "quoteID": "25",
+      "author": "Origin unknown",
+      "text": "You can't write good tests for bad code"
+    },
+    {
+      "quoteID": "26",
+      "author": "Gene Kim - The DevOps Handbook",
+      "text": "Improving daily work is even more important than doing daily work."
+    },
+    {
+      "quoteID": "27",
+      "author": "Dominica DeGrandis - Making Work Visible",
+      "text": "Godhart's law: When the focus is on the metric instead of the goal, it's a problem."
+    },
+    {
+      "quoteID": "28",
+      "author": "Michael Feathers",
+      "text": "Legacy code is simply code without tests."
+    },
+    {
+      "quoteID": "29",
+      "author": "Dylan Beattie",
+      "text": "Legacy Code: Code that's too scary to update and too profitable to delete"
+    },
+    {
+      "quoteID": "30",
+      "author": "Yoda",
+      "text": "Fear is the path to the dark side:  Fear leads to anger Anger leads to hate Hate leads to suffering  "
+    },
+    {
+      "quoteID": "31",
+      "author": "Douglas Adams",
+      "text": "Technology is stuff that doesn't work yet - when it works it's just stuff"
+    },
+    {
+      "quoteID": "32",
+      "author": "Bruce Lee",
+      "text": "A goal is not always meant to be reached - it often serves simply as something to aim at."
+    },
+    {
+      "quoteID": "33",
+      "author": "Ihre Steuerberater",
+      "text": "Gott verzeiht - Das Finanzamt nie"
+    },
+    {
+      "quoteID": "34",
+      "author": "Unknown",
+      "text": "I said I'm able to work under pressure - not die for your company."
+    },
+    {
+      "quoteID": "35",
+      "author": "John Wooden",
+      "text": "Failure is not fatal - but failure to change might be"
+    },
+    {
+      "quoteID": "36",
+      "author": "Billy Cox",
+      "text": "Life will only change when you become more committed to your dreams than to your comfort zone"
+    },
+    {
+      "quoteID": "37",
+      "author": "Mahatma Gandhi",
+      "text": "It's easy to stand in the crowed - but it take courage to stand alone"
+    },
+    {
+      "quoteID": "38",
+      "author": "W. Edwards DemingBruce Lee",
+      "text": "A bad system will beat a good person every time."
+    },
+    {
+      "quoteID": "39",
+      "author": "Enriro Biscaro",
+      "text": "Bosses make you feel incompetent. Leaders make you feel powerful."
+    },
+    {
+      "quoteID": "40",
+      "author": "Richard Branson",
+      "text": "Take care of your employees and they will take care of your business. It's as simple as that."
+    },
+    {
+      "quoteID": "41",
+      "author": "Benjamin Franklin",
+      "text": "Never ruin an apology with an excuse."
+    },
+    {
+      "quoteID": "42",
+      "author": "@micheleveldsman",
+      "text": "I've a statistics joke, but it's not significant."
+    },
+    {
+      "quoteID": "43",
+      "author": "@olimould",
+      "text": "I have a geography joke, but i don't know where it is."
+    },
+    {
+      "quoteID": "44",
+      "author": "@garynewman",
+      "text": "Two weeks without coding and i've forgotten 30 years of experience."
+    },
+    {
+      "quoteID": "45",
+      "author": "Eric Johnson",
+      "text": "I maybe wrong - but i doubt it.",
+      "url": "https://www.youtube.com/watch?v=4vuOqt9Vc2c"
+    },
+    {
+      "quoteID": "46",
+      "author": "Justin Welsh (@thejustinwelsh)",
+      "text": "The best productivity hack is accepting that you can't do everything"
+    },
+    {
+      "quoteID": "47",
+      "author": "Simon Høiberg ",
+      "text": "I didn't become an entrepreneur to be my own boss. I did it to become my own VC 💰. I invest in myself constantly.",
+      "url": "https://simonl.ink/youtube"
+    },
+    {
+      "quoteID": "48",
+      "author": "Lewis Howes",
+      "text": "COnsitency over intensity is essential to achieving a long term goal"
+    }
+  ]
 }

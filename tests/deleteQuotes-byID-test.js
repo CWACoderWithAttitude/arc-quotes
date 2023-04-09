@@ -19,7 +19,6 @@ test("sandbox.start", async (t) => {
 test("endpoint exists", async (t) => {
   t.plan(1);
   let result = await tiny.delete({ url: 'http://localhost:3333/api/quotes/0815' })
-  console.debug('result: ' + JSON.stringify(result, 'xx', 2))
   t.ok(result, 'got 200 response')
 }); 
 
