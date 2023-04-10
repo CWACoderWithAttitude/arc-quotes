@@ -36,7 +36,7 @@ test("body", async (t) => {
   let result = await tiny.get({ url: "http://localhost:3333/api/quotes" });
   t.ok(result.body, "no body in response?!");
   t.notEqual(result.body, "itzelbritzel");
-  t.equal(result.body.length, 48, "wrong number of items in test data");
+  t.equal(result.body.length, 50, "wrong number of items in test data");
   console.debug(
     "test: getQuotes: quotes: " + JSON.stringify(result.body, " ", 2)
   );
