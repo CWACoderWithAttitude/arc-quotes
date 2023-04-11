@@ -6,8 +6,16 @@
   // The name of the following service has to match one of the services in docker-compose.yml
   "service": "devcontainer",
   "workspaceFolder": "/src",
+
   "customizations": {
     "vscode": {
+      "settings": {
+        "prettier.printWidth": 120,
+        "prettier.enable": true,
+        "prettier.bracketSpacing": true,
+        "prettier.bracketSameLine": true,
+        "prettier.singleQuote": true
+      },
       "extensions": [
         "esbenp.prettier-vscode",
         "ms-vscode.vscode-typescript-tslint-plugin",

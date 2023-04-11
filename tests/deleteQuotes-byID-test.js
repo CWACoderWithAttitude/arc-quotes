@@ -15,17 +15,23 @@ test("sandbox.start", async (t) => {
   t.ok(true, "sandbox started and mockdata loaded on http://localhost:3333");
 });
 
-  
-test("endpoint exists", async (t) => {
-  t.plan(1);
-  let result = await tiny.delete({ url: 'http://localhost:3333/api/quotes/0815' })
-  t.ok(result, 'got 200 response')
-}); 
+test("delete existing quote", async (t) => {
+  t.plan(3);
+  const existingId = "1";
+  const ensure = await tiny.get({
+    url: "http://localhost:3333/api/quotes/" + existingId,
+  });
+  t.equal(ensure.body.quoteID, existingId, "quote should exist before it can be deleted");
+  let result = await tiny.delete({ url: "http://localhost:3333/api/quotes/" + existingId });
+  t.ok(result, "got 200 response");
+  const verify = await tiny.get({
+    url: "http://localhost:3333/api/quotes/" + existingId,
+  });
+  t.equal(verify.body, "", "body should be empty when querying non existing quotes");
+});
 
 test("teardown", async (t) => {
   t.plan(1);
   await sandbox.end();
   t.ok(true, "sandbox ended");
 });
-
-  

@@ -22,6 +22,10 @@
       name = "world";
     }
   }
+
+  async function onClick(e) {
+    console.log("onClick: 1");
+  }
   async function onSubmit(e) {
     const formData = new FormData(e.target);
 
@@ -41,7 +45,7 @@
       headers: {
         "Content-Type": "application/json",
       },
-      redirect: "follow", 
+      redirect: "follow",
       referrerPolicy: "no-referrer",
       body: JSON.stringify(data),
     });
@@ -51,7 +55,7 @@
   async function onDelete(id) {
     console.log("onDelete: id:" + JSON.stringify(id));
     const response = await fetch(`${quotesApi}/${id}`, { method: "DELETE" });
-    console.debug('delete-Response: ' + JSON.stringify(response, ' ', 2))
+    console.debug("delete-Response: " + JSON.stringify(response, " ", 2));
   }
 </script>
 
@@ -62,7 +66,7 @@
     <form on:submit|preventDefault={onSubmit}>
       <div>
         <label for="author">Author</label>
-        <input type="text" id="author" name="author" value="author" />
+        <input type="text" id="author" name="author" value="author" enterkeyhint="hint" />
       </div>
       <div>
         <label for="text">Text</label>
@@ -81,11 +85,17 @@
           <th>Quote</th>
         </tr>
         {#each quotes as x}
-          <tr>
+          <tr on:click={onClick(x)}>
             <td>{x.quoteID}</td>
             <td>{x.author}</td>
             <td>{x.text}</td>
-            <td><input type="button" value="Delete" on:click={() => onDelete(x.quoteID)} /></td>
+            <td
+              ><input
+                type="button"
+                value="Delete"
+                on:click={() => onDelete(x.quoteID)}
+              /></td
+            >
           </tr>
         {/each}
       </table>

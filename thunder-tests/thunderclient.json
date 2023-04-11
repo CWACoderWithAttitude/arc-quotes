@@ -61,11 +61,11 @@
     "colId": "b0122b5d-472a-490d-904b-39127d0fad5d",
     "containerId": "",
     "name": "delete quote by id",
-    "url": "http://127.0.0.1:3333/api/quotes/12345678",
+    "url": "http://127.0.0.1:3333/api/quotes/36",
     "method": "DELETE",
     "sortNum": 20000,
     "created": "2023-03-28T08:33:04.992Z",
-    "modified": "2023-03-28T09:39:38.089Z",
+    "modified": "2023-04-11T17:35:10.568Z",
     "headers": [],
     "params": [],
     "tests": []
