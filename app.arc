@@ -4,6 +4,7 @@ test1
 @http
 #get /
 get /api/quotes
+get /api/randomQuote
 get /api/quotes/:quoteID
 delete /api/quotes/:quoteID
 post /api/quotes

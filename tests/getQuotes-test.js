@@ -25,21 +25,15 @@ test("contenttype", async (t) => {
   let result = await tiny.get({ url: "http://localhost:3333/api/quotes" });
   t.ok(result.headers, "no headers at all?!");
   t.ok(result.headers["content-type"], "no contewnrt tyoe header?!");
-  t.equal(
-    result.headers["content-type"],
-    "application/json; charset=utf8",
-    "wrong content type"
-  );
+  t.equal(result.headers["content-type"], "application/json; charset=utf8", "wrong content type");
 });
 test("body", async (t) => {
   t.plan(3);
   let result = await tiny.get({ url: "http://localhost:3333/api/quotes" });
   t.ok(result.body, "no body in response?!");
   t.notEqual(result.body, "itzelbritzel");
-  t.equal(result.body.length, 50, "wrong number of items in test data");
-  console.debug(
-    "test: getQuotes: quotes: " + JSON.stringify(result.body, " ", 2)
-  );
+  t.equal(result.body.length, 57, "wrong number of items in test data");
+  console.debug("test: getQuotes: quotes: " + JSON.stringify(result.body, " ", 2));
 });
 
 test("teardown", async (t) => {
