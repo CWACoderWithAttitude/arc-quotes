@@ -28,7 +28,7 @@
   "dependencies": {
     "@architect/architect": "^10.10.2",
     "@architect/functions": "^5.4.0",
-    "npm": "^9.6.4",
+    "npm": "^9.6.5",
     "uuid": "^9.0.0"
   }
 }
