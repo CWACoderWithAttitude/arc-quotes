@@ -22,7 +22,7 @@ const generateId = async function (min, max) {
 const getRandomQuote = async function () {
   const quotes = await tiny.get({ url: 'http://localhost:3333/api/quotes' });
   const randomId = await generateId(0, quotes.length);
-  console.log('generateId > id: ' + randomId);
+  //console.log('generateId > id: ' + randomId);
   return quotes[randomId];
 };
 test('get random quote', async (t) => {
