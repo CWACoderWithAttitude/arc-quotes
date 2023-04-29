@@ -372,8 +372,14 @@
     {
       "quoteID": "70",
       "author": "Harley Ferguson",
-      "text": "The more developers you work with, the better developer you'll become.      ",
+      "text": "The more developers you work with, the better developer you'll become.",
       "url": "https://www.linkedin.com/in/askharley/"
+    },
+    {
+      "quoteID": "71",
+      "author": "Unknownn",
+      "text": "When building a new product the last thing you want to care about is servers",
+      "url": "https://twitter.com/UuMacher/status/1022838014136012800"
     }
   ]
 }
