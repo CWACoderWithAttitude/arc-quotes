@@ -10,6 +10,7 @@
     "watchPostTests": "npx tape-watch tests/post*-test.js",
     "watchGetByIdTests": "npx tape-watch tests/*byID-test.js",
     "watchDeleteTests": "npx tape-watch tests/delete*-test.js",
+    "watchByLanguage": "npx tape-watch tests/getQuotes-byLanguage-test.js",
     "coverage": "istanbul cover tape tests/*-test.js",
     "start": "npx sandbox",
     "generateDeploymentFiles": "arc deploy --dry-run",

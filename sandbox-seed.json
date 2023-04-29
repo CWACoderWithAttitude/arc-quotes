@@ -3,383 +3,468 @@
     {
       "quoteID": "1",
       "author": "Picard, Jean-Luc",
-      "text": "Make it so!"
+      "text": "Make it so!",
+      "language": "en"
     },
     {
       "quoteID": "2",
       "author": "Walbaum, Frank",
-      "text": "Planung ersetzt Zufall durch Irrtum"
+      "text": "Planung ersetzt Zufall durch Irrtum",
+      "language": "de"
     },
     {
       "quoteID": "3",
       "author": "Staubsaugerina",
-      "text": "Pech fürs Schwein"
+      "text": "Pech fürs Schwein",
+      "language": "de"
     },
     {
       "quoteID": "4",
       "author": "Reiners, Till",
-      "text": "Erwachsene sind wie Kinder mit Geld. Oder Schulden - Ja nachdem wie es läuft"
+      "text": "Erwachsene sind wie Kinder mit Geld. Oder Schulden - Ja nachdem wie es läuft",
+      "language": "de"
     },
     {
       "quoteID": "5",
       "author": "@WisdomMadeEasy",
-      "text": "Don't just pratice until you can do it right. Practice until you can't do it wrong "
+      "text": "Don't just pratice until you can do it right. Practice until you can't do it wrong ",
+      "language": "en"
     },
     {
       "quoteID": "6",
       "author": "Söder, Markus",
-      "text": "It's nice to be a preiss - but it's higher to be a bayer."
+      "text": "It's nice to be a preiss - but it's higher to be a bayer.",
+      "language": "de"
     },
     {
       "quoteID": "7",
       "author": "unknown",
-      "text": "Dont listen with the intent to reply. But with the intent to understand"
+      "text": "Dont listen with the intent to reply. But with the intent to understand",
+      "language": "en"
     },
     {
       "quoteID": "8",
       "author": "unknown",
-      "text": "When you invest in your employees, you invest in your companys future"
+      "text": "When you invest in your employees, you invest in your companys future",
+      "language": "en"
     },
     {
       "quoteID": "9",
       "author": "Millamn, Dan",
-      "text": "𝘋𝘢𝘴 𝘎𝘦𝘩𝘦𝘪𝘮𝘯𝘪𝘴 𝘥𝘦𝘳 𝘝𝘦𝘳𝘢̈𝘯𝘥𝘦𝘳𝘶𝘯𝘨 𝘪𝘴𝘵, 𝘥𝘢𝘴𝘴 𝘮𝘢𝘯 𝘴𝘪𝘤𝘩 𝘮𝘪𝘵 𝘢𝘭𝘭 𝘴𝘦𝘪𝘯𝘦 𝘌𝘯𝘦𝘳𝘨𝘪𝘦 𝘯𝘪𝘤𝘩𝘵 𝘥𝘢𝘳𝘢𝘶𝘧 𝘬𝘰𝘯𝘻𝘦𝘯𝘵𝘳𝘪𝘦𝘳𝘵, 𝘥𝘢𝘴 𝘈𝘭𝘵𝘦 𝘻𝘶 𝘣𝘦𝘬𝘢̈𝘮𝘱𝘧𝘦𝘯, 𝘴𝘰𝘯𝘥𝘦𝘳𝘯 𝘥𝘢𝘳𝘢𝘶𝘧, 𝘥𝘢𝘴 𝘕𝘦𝘶𝘦 𝘻𝘶 𝘦𝘳𝘣𝘢𝘶𝘦𝘯"
+      "text": "𝘋𝘢𝘴 𝘎𝘦𝘩𝘦𝘪𝘮𝘯𝘪𝘴 𝘥𝘦𝘳 𝘝𝘦𝘳𝘢̈𝘯𝘥𝘦𝘳𝘶𝘯𝘨 𝘪𝘴𝘵, 𝘥𝘢𝘴𝘴 𝘮𝘢𝘯 𝘴𝘪𝘤𝘩 𝘮𝘪𝘵 𝘢𝘭𝘭 𝘴𝘦𝘪𝘯𝘦 𝘌𝘯𝘦𝘳𝘨𝘪𝘦 𝘯𝘪𝘤𝘩𝘵 𝘥𝘢𝘳𝘢𝘶𝘧 𝘬𝘰𝘯𝘻𝘦𝘯𝘵𝘳𝘪𝘦𝘳𝘵, 𝘥𝘢𝘴 𝘈𝘭𝘵𝘦 𝘻𝘶 𝘣𝘦𝘬𝘢̈𝘮𝘱𝘧𝘦𝘯, 𝘴𝘰𝘯𝘥𝘦𝘳𝘯 𝘥𝘢𝘳𝘢𝘶𝘧, 𝘥𝘢𝘴 𝘕𝘦𝘶𝘦 𝘻𝘶 𝘦𝘳𝘣𝘢𝘶𝘦𝘯",
+      "language": "en"
     },
     {
       "quoteID": "10",
       "author": "Gary Travis, BloomingBound.com",
-      "text": "Don't confuse a high salary with a great career."
+      "text": "Don't confuse a high salary with a great career.",
+      "language": "en"
     },
     {
       "quoteID": "11",
       "author": "Claus von Wagner, Die Anstalt",
-      "text": "Wer Bild-Zeitung liest um sich zu informieren, der trinkt auch Schnaps wenn er Durst hat."
+      "text": "Wer Bild-Zeitung liest um sich zu informieren, der trinkt auch Schnaps wenn er Durst hat.",
+      "language": "de"
     },
     {
       "quoteID": "12",
       "author": "Nat Friedman, GitHub CEO",
-      "text": "Pessimists sound smart - optimists make money."
+      "text": "Pessimists sound smart - optimists make money.",
+      "language": "en"
     },
     {
       "quoteID": "13",
       "author": "Robet Mc Call",
-      "text": "Progress - not perfection"
+      "text": "Progress - not perfection",
+      "language": "en"
     },
     {
       "quoteID": "14",
       "author": "Abraham Lincoln",
-      "text": "You can not trust quotes on the internet"
+      "text": "You can not trust quotes on the internet",
+      "language": "en"
     },
     {
       "quoteID": "15",
       "author": "Scott Hanselmann",
-      "text": "The cloud doesn't care about language choice."
+      "text": "The cloud doesn't care about language choice.",
+      "language": "en"
     },
     {
       "quoteID": "16",
       "author": "Unknown",
-      "text": "Truth is like poetry - and most people hate poetry."
+      "text": "Truth is like poetry - and most people hate poetry.",
+      "language": "en"
     },
     {
       "quoteID": "17",
       "author": "Vivian Green",
-      "text": "Life isn't about waiting for the storm to pass; it's about learning to dance in the rain."
+      "text": "Life isn't about waiting for the storm to pass; it's about learning to dance in the rain.",
+      "language": "en"
     },
     {
       "quoteID": "18",
       "author": "Steve Jobs",
-      "text": "The ones who are crazy enough ti think they can change the world are the ones who do"
+      "text": "The ones who are crazy enough ti think they can change the world are the ones who do",
+      "language": "en"
     },
     {
       "quoteID": "19",
       "author": "Mark Twain",
-      "text": "It ain't what you don't know what gets you into trouble - It's what you know for sure that just ain't so  "
+      "text": "It ain't what you don't know what gets you into trouble - It's what you know for sure that just ain't so  ",
+      "language": "en"
     },
     {
       "quoteID": "20",
       "author": "Mark Twain",
-      "text": "The two most important days in your life are the day when you where born and the day you find out why"
+      "text": "The two most important days in your life are the day when you where born and the day you find out why",
+      "language": "en"
     },
     {
       "quoteID": "21",
       "author": "Thomas J. Watson (former head of big blue)",
-      "text": "I think there is a world market for maybe five computers"
+      "text": "I think there is a world market for maybe five computers",
+      "language": "en"
     },
     {
       "quoteID": "22",
       "author": "Adrian Cockcroft, Netflix Cloud Architect",
-      "text": "Server errors are not my problem. I'm renting them"
+      "text": "Server errors are not my problem. I'm renting them",
+      "language": "en"
     },
     {
       "quoteID": "23",
       "author": "Simon Sinek",
-      "text": "You don´t hire for skills. You hire for attitude. You can always teach skills later "
+      "text": "You don´t hire for skills. You hire for attitude. You can always teach skills later ",
+      "language": "en"
     },
     {
       "quoteID": "24",
       "author": "Jon Reid, @qcoding",
-      "text": "Code coverage can be misleading - but lack of coverage is always true."
+      "text": "Code coverage can be misleading - but lack of coverage is always true.",
+      "language": "en"
     },
     {
       "quoteID": "25",
       "author": "Origin unknown",
-      "text": "You can't write good tests for bad code"
+      "text": "You can't write good tests for bad code",
+      "language": "en"
     },
     {
       "quoteID": "26",
       "author": "Gene Kim - The DevOps Handbook",
-      "text": "Improving daily work is even more important than doing daily work."
+      "text": "Improving daily work is even more important than doing daily work.",
+      "language": "en"
     },
     {
       "quoteID": "27",
       "author": "Dominica DeGrandis - Making Work Visible",
-      "text": "Godhart's law: When the focus is on the metric instead of the goal, it's a problem."
+      "text": "Godhart's law: When the focus is on the metric instead of the goal, it's a problem.",
+      "language": "en"
     },
     {
       "quoteID": "28",
       "author": "Michael Feathers",
-      "text": "Legacy code is simply code without tests."
+      "text": "Legacy code is simply code without tests.",
+      "language": "en"
     },
     {
       "quoteID": "29",
       "author": "Dylan Beattie",
-      "text": "Legacy Code: Code that's too scary to update and too profitable to delete"
+      "text": "Legacy Code: Code that's too scary to update and too profitable to delete",
+      "language": "en"
     },
     {
       "quoteID": "30",
       "author": "Yoda",
-      "text": "Fear is the path to the dark side:  Fear leads to anger Anger leads to hate Hate leads to suffering  "
+      "text": "Fear is the path to the dark side:  Fear leads to anger Anger leads to hate Hate leads to suffering  ",
+      "language": "en"
     },
     {
       "quoteID": "31",
       "author": "Douglas Adams",
-      "text": "Technology is stuff that doesn't work yet - when it works it's just stuff"
+      "text": "Technology is stuff that doesn't work yet - when it works it's just stuff",
+      "language": "en"
     },
     {
       "quoteID": "32",
       "author": "Bruce Lee",
-      "text": "A goal is not always meant to be reached - it often serves simply as something to aim at."
+      "text": "A goal is not always meant to be reached - it often serves simply as something to aim at.",
+      "language": "en"
     },
     {
       "quoteID": "33",
       "author": "Ihre Steuerberater",
-      "text": "Gott verzeiht - Das Finanzamt nie"
+      "text": "Gott verzeiht - Das Finanzamt nie",
+      "language": "de"
     },
     {
       "quoteID": "34",
       "author": "Unknown",
-      "text": "I said I'm able to work under pressure - not die for your company."
+      "text": "I said I'm able to work under pressure - not die for your company.",
+      "language": "en"
     },
     {
       "quoteID": "35",
       "author": "John Wooden",
-      "text": "Failure is not fatal - but failure to change might be"
+      "text": "Failure is not fatal - but failure to change might be",
+      "language": "en"
     },
     {
       "quoteID": "36",
       "author": "Billy Cox",
-      "text": "Life will only change when you become more committed to your dreams than to your comfort zone"
+      "text": "Life will only change when you become more committed to your dreams than to your comfort zone",
+      "language": "en"
     },
     {
       "quoteID": "37",
       "author": "Mahatma Gandhi",
-      "text": "It's easy to stand in the crowed - but it take courage to stand alone"
+      "text": "It's easy to stand in the crowed - but it take courage to stand alone",
+      "language": "en"
     },
     {
       "quoteID": "38",
       "author": "W. Edwards DemingBruce Lee",
-      "text": "A bad system will beat a good person every time."
+      "text": "A bad system will beat a good person every time.",
+      "language": "en"
     },
     {
       "quoteID": "39",
       "author": "Enriro Biscaro",
-      "text": "Bosses make you feel incompetent. Leaders make you feel powerful."
+      "text": "Bosses make you feel incompetent. Leaders make you feel powerful.",
+      "language": "en"
     },
     {
       "quoteID": "40",
       "author": "Richard Branson",
-      "text": "Take care of your employees and they will take care of your business. It's as simple as that."
+      "text": "Take care of your employees and they will take care of your business. It's as simple as that.",
+      "language": "en"
     },
     {
       "quoteID": "41",
       "author": "Benjamin Franklin",
-      "text": "Never ruin an apology with an excuse."
+      "text": "Never ruin an apology with an excuse.",
+      "language": "en"
     },
     {
       "quoteID": "42",
       "author": "@micheleveldsman",
-      "text": "I've a statistics joke, but it's not significant."
+      "text": "I've a statistics joke, but it's not significant.",
+      "language": "en"
     },
     {
       "quoteID": "43",
       "author": "@olimould",
-      "text": "I have a geography joke, but i don't know where it is."
+      "text": "I have a geography joke, but i don't know where it is.",
+      "language": "en"
     },
     {
       "quoteID": "44",
       "author": "@garynewman",
-      "text": "Two weeks without coding and i've forgotten 30 years of experience."
+      "text": "Two weeks without coding and i've forgotten 30 years of experience.",
+      "language": "en"
     },
     {
       "quoteID": "45",
       "author": "Eric Johnson",
       "text": "I maybe wrong - but i doubt it.",
-      "url": "https://www.youtube.com/watch?v=4vuOqt9Vc2c"
+      "url": "https://www.youtube.com/watch?v=4vuOqt9Vc2c",
+      "language": "en"
     },
     {
       "quoteID": "46",
       "author": "Justin Welsh (@thejustinwelsh)",
-      "text": "The best productivity hack is accepting that you can't do everything"
+      "text": "The best productivity hack is accepting that you can't do everything",
+      "language": "en"
     },
     {
       "quoteID": "47",
       "author": "Simon Høiberg ",
       "text": "I didn't become an entrepreneur to be my own boss. I did it to become my own VC 💰. I invest in myself constantly.",
-      "url": "https://simonl.ink/youtube"
+      "url": "https://simonl.ink/youtube",
+      "language": "en"
     },
     {
       "quoteID": "48",
       "author": "Nir Eyal",
       "text": "Consitency over intensity is essential to achieving a long term goal",
-      "url": "https://www.linkedin.com/posts/lewishowes_this-find-out-how-to-form-habits-and-what-activity-7050862736850735105-XMqi?utm_source=share&utm_medium=member_desktop"
+      "url": "https://www.linkedin.com/posts/lewishowes_this-find-out-how-to-form-habits-and-what-activity-7050862736850735105-XMqi?utm_source=share&utm_medium=member_desktop",
+      "language": "en"
     },
     {
       "quoteID": "49",
       "author": "n/a",
       "text": "The difference between your dreams and your reality is called action",
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7050898763304837121?utm_source=share&utm_medium=member_desktop"
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7050898763304837121?utm_source=share&utm_medium=member_desktop",
+      "language": "en"
     },
     {
       "quoteID": "50",
       "author": "Morpheus",
-      "text": "You take the blue pill, the sory ends, You wake up in your bed and believe whatever you want to believe. You take the red pill. YOu stay in wonderland  and i show you how deep the rabbit hole goes.",
-      "url": ""
+      "text": "You take the blue pill, the sory ends, You wake up in your bed and believe whatever you want to believe. You take the red pill. You stay in wonderland  and i show you how deep the rabbit hole goes.",
+      "url": "",
+      "language": "en"
     },
     {
       "quoteID": "51",
       "author": "@PR0GRAMMERHUM0R",
       "text": "When men refer to themselves as \"alpha males\", I hear that in a context of software, where alpha versions are unstable, missing important features, filled with flaws and not fit for the public",
-      "url": ""
+      "url": "",
+      "language": "en"
     },
     {
       "quoteID": "52",
       "author": "@PR0GRAMMERHUM0R",
       "text": "Picard mgmt. tip: Have an opinion on one side of an issue. Stay out of the neutral zone",
-      "url": ""
+      "url": "",
+      "language": "en"
     },
     {
       "quoteID": "53",
       "author": "Marc Andreesen",
       "text": "Software is eating the world.",
-      "url": ""
+      "url": "",
+      "language": "en"
     },
     {
       "quoteID": "54",
-      "author": "Muline",
+      "author": "Andrea Benders",
       "text": "Stupid people don't explain - they just do",
-      "url": ""
+      "url": "",
+      "language": "en"
     },
     {
       "quoteID": "55",
       "author": "Unknown",
       "text": "An agile transformation can't be DONE",
-      "url": ""
+      "url": "",
+      "language": "en"
     },
     {
       "quoteID": "56",
       "author": "Anonymous",
       "text": "Only half of programming is coding. The other 90% is debugging.",
-      "url": ""
+      "url": "",
+      "language": "en"
     },
     {
       "quoteID": "57",
       "author": "Alex Wisch (@AlexCWisch)",
       "text": "A vacation isn't a luxury, it is a necessity for peak performance and mental health.",
-      "url": ""
+      "url": "",
+      "language": "en"
     },
     {
       "quoteID": "58",
       "author": "Neale Donal Walsch",
       "text": "Life begins at the end of your comfort zone.",
-      "url": "https://www.linkedin.com/posts/sarahdebusscher_mindset-empowerment-emotionalintelligence-ugcPost-7055825572064600064-mn60?utm_source=share&utm_medium=member_desktop"
+      "url": "https://www.linkedin.com/posts/sarahdebusscher_mindset-empowerment-emotionalintelligence-ugcPost-7055825572064600064-mn60?utm_source=share&utm_medium=member_desktop",
+      "language": "en"
     },
     {
       "quoteID": "59",
       "author": "Gary Travis, BloomingBound.com",
       "text": "Hire based on character and reliability. Anything else can be trained.",
-      "url": ""
+      "url": "",
+      "language": "en"
     },
     {
       "quoteID": "60",
       "author": "Steve Jobs",
       "text": "It doesn't make sense to hire smart people and tell them what to do: we hire smart people so they can tell us what to do.",
-      "url": ""
+      "url": "",
+      "language": "en"
     },
     {
       "quoteID": "61",
       "author": "n/a",
       "text": "Never underestimate how you can start something big through one small habit.",
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7055725558424297472?utm_source=share&utm_medium=member_desktop"
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7055725558424297472?utm_source=share&utm_medium=member_desktop",
+      "language": "en"
     },
     {
       "quoteID": "62",
       "author": "Arthur C. Clarke",
       "text": "Any sufficiently advanced technology is indistinguishable from magic",
-      "url": ""
+      "url": "",
+      "language": "en"
     },
     {
       "quoteID": "63",
       "author": "Martin Luther King, Jr.",
       "text": "Faith is taking the first step event when you don't see the whole staircase",
-      "url": ""
+      "url": "",
+      "language": "en"
     },
     {
       "quoteID": "64",
       "author": "Scott M. Graffius",
       "text": "If you don't collect any metrics, you're flying blind. If you colect and focus on too many, they may be obstructing your field of view.",
-      "url": ""
+      "url": "",
+      "language": "en"
     },
     {
       "quoteID": "65",
       "author": "Gren Gale @PM_Results",
       "text": "Agile or waterfall? - Neither... it's your culture stupid!",
-      "url": ""
+      "url": "",
+      "language": "en"
     },
     {
       "quoteID": "66",
       "author": "www.theLDG.org",
       "text": "Leading is, first and foremost, about service. Remember being the leader means that you have been placed in a position to serve-",
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7057367247656235008?utm_source=share&utm_medium=member_desktop"
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7057367247656235008?utm_source=share&utm_medium=member_desktop",
+      "language": "en"
     },
     {
       "quoteID": "67",
       "author": "Daniel Moka",
       "text": "Many software engineering teams don't have time to do it right. But surprisingly, they have time to do it twice.",
-      "url": "https://www.linkedin.com/posts/danielmoka_many-software-engineering-teams-dont-have-activity-7055797457414238208-t9z0?utm_source=share&utm_medium=member_desktop"
+      "url": "https://www.linkedin.com/posts/danielmoka_many-software-engineering-teams-dont-have-activity-7055797457414238208-t9z0?utm_source=share&utm_medium=member_desktop",
+      "language": "en"
     },
     {
       "quoteID": "68",
       "author": "www.theLDG.org",
       "text": "A good leader i a good listener",
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7057924296211333120?utm_source=share&utm_medium=member_desktop"
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7057924296211333120?utm_source=share&utm_medium=member_desktop",
+      "language": "en"
     },
     {
       "quoteID": "69",
       "author": "www.theLDG.org",
       "text": "A good leader i a good listener",
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7057924296211333120?utm_source=share&utm_medium=member_desktop"
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7057924296211333120?utm_source=share&utm_medium=member_desktop",
+      "language": "en"
     },
     {
       "quoteID": "70",
       "author": "Harley Ferguson",
       "text": "The more developers you work with, the better developer you'll become.",
-      "url": "https://www.linkedin.com/in/askharley/"
+      "url": "https://www.linkedin.com/in/askharley/",
+      "language": "en"
     },
     {
       "quoteID": "71",
       "author": "Unknownn",
       "text": "When building a new product the last thing you want to care about is servers",
-      "url": "https://twitter.com/UuMacher/status/1022838014136012800"
+      "url": "https://twitter.com/UuMacher/status/1022838014136012800",
+      "language": "en"
+    },
+    {
+      "quoteID": "72",
+      "author": "M.A. Jackson",
+      "text": "Rules of Optimization: 1. Don’t do it. 2. (for experts only): Don’t do it yet.",
+      "url": "https://clean-code-developer.de/die-grade/roter-grad/",
+      "language": "en"
+    },
+    {
+      "quoteID": "73",
+      "author": "W.A.Wulf",
+      "text": "More computing sins are committed in the name of efficiency (without necessarily achieving it) than for any other single reason – including blind stupidity.",
+      "url": "https://clean-code-developer.de/die-grade/roter-grad/",
+      "language": "en"
     }
   ]
 }
