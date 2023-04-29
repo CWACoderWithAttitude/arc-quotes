@@ -36,6 +36,38 @@ test('get only german quotes', async (t) => {
   });
   t.false(wrongLanguageFound, `only entries with language "${expectedLanguage}" should be in result`);
 });
+test('get only english quotes', async (t) => {
+  t.plan(3);
+  let result = await tiny.get({ url: 'http://localhost:3333/api/quotes' });
+  t.ok(result, 'no headers at all?!');
+  const quotes = result.body;
+  const expectedLanguage = 'en';
+  const englishQuotes = quotes.filter((quote) => quote.language === expectedLanguage);
+  t.notEqual(englishQuotes, undefined, 'the result should contain quotes');
+  var wrongLanguageFound = false;
+  englishQuotes.forEach((quote) => {
+    if (quote.language !== expectedLanguage) {
+      wrongLanguageFound = true;
+    }
+  });
+  t.false(wrongLanguageFound, `only entries with language "${expectedLanguage}" should be in result`);
+});
+test('get only english quotes', async (t) => {
+  t.plan(3);
+  let result = await tiny.get({ url: 'http://localhost:3333/api/quotes' });
+  t.ok(result, 'no headers at all?!');
+  const quotes = result.body;
+  const expectedLanguage = 'en';
+  const englishQuotes = quotes.filter((quote) => quote.language === expectedLanguage);
+  t.notEqual(englishQuotes, undefined, 'the result should contain quotes');
+  var wrongLanguageFound = false;
+  englishQuotes.forEach((quote) => {
+    if (quote.language !== expectedLanguage) {
+      wrongLanguageFound = true;
+    }
+  });
+  t.false(wrongLanguageFound, `only entries with language "${expectedLanguage}" should be in result`);
+});
 
 /* test('body', async (t) => {
   t.plan(3);
