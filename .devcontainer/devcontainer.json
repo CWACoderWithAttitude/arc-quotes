@@ -31,8 +31,8 @@
         "SeyyedKhandon.gpack",
         "redhat.vscode-yaml",
         "PKief.material-icon-theme",
-        "github.vscode-github-actions",
-        "AmazonWebServices.aws-toolkit-vscode"
+        "github.vscode-github-actions"
+        //        "AmazonWebServices.aws-toolkit-vscode"
       ]
     }
   },
