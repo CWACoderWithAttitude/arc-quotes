@@ -472,6 +472,48 @@
       "text": "XML - JSON für boomer",
       "url": "https://www.youtube.com/watch?v=zyrtalrhExY",
       "language": "de"
+    },
+    {
+      "quoteID": "75",
+      "author": "Harry Callahan, Sudden Impact",
+      "text": "Go ahead - make my day-",
+      "url": "https://www.imdb.com/title/tt0086383/",
+      "language": "de"
+    },
+    {
+      "quoteID": "76",
+      "author": "Jack Ryan, Hunt for Red October",
+      "text": "The hard part about playing chicken is knowing when to flinch.",
+      "url": "https://www.imdb.com/title/tt0086383/",
+      "language": "en"
+    },
+    {
+      "quoteID": "77",
+      "author": "Captain Marko Ramius, Hunt for Red October",
+      "text": "Give me a ping, Vasili. One ping only, please.",
+      "url": "https://www.imdb.com/title/tt0099810/",
+      "language": "en"
+    },
+    {
+      "quoteID": "78",
+      "author": "Steve Jobs",
+      "text": "The only way to do great work is to love what you do.",
+      "url": "",
+      "language": "en"
+    },
+    {
+      "quoteID": "79",
+      "author": "Michael Feathers",
+      "text": "Clean code always looks like it was written by someone who cares.",
+      "url": "",
+      "language": "en"
+    },
+    {
+      "quoteID": "80",
+      "author": "Robert C. Martin, Uncle Bob",
+      "text": "The only way to go fast is to go well.",
+      "url": "",
+      "language": "en"
     }
   ]
 }
