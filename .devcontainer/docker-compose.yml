@@ -1,14 +1,14 @@
-version: '3.7'
+version: "3.7"
 
 services:
-  devcontainer:
-    image: javavolker/arc-quotesservice-dev-container:0.1
-    build: .
-    container_name: arc-quotesservice-dev-container
-    hostname: arc-quotesservice-dev.local
-    working_dir: /src
-    volumes:
-       - ..:/src
-       # Allow AWS CLI and other tools to read an AWS profile
-       - ~/.aws:/home/node/.aws
-    command: sleep infinity
+    devcontainer:
+        image: javavolker/arc-quotesservice-dev-container:0.1
+        build: .
+        container_name: arc-quotesservice-dev-container
+        hostname: arc-quotesservice-dev.local
+        working_dir: /src
+        volumes:
+            - ..:/src
+            # Allow AWS CLI and other tools to read an AWS profile
+            - ~/.aws:/home/node/.aws
+        command: sleep infinity

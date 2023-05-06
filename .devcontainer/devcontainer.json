@@ -32,7 +32,8 @@
         "redhat.vscode-yaml",
         "PKief.material-icon-theme",
         "github.vscode-github-actions",
-        "adpyke.codesnap"
+        "adpyke.codesnap",
+        "EditorConfig.EditorConfig"
         //        "AmazonWebServices.aws-toolkit-vscode"
       ]
     }
