@@ -43,5 +43,6 @@
   "remoteUser": "node",
   // update npm ==> sveltekit
   // install deps for arc.codes app
-  "postCreateCommand": "npm install npm@latest && npm install"
+  "postCreateCommand": "npm install npm@latest && npm install",
+  "postStartCommand": "npm run watch"
 }
