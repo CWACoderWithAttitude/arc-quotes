@@ -12,3 +12,5 @@ jobs:
     steps:
       - name: Build App
         uses: architect/action-build@v3
+      - run: npm test
+
